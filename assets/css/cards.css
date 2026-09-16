@@ -232,48 +232,67 @@ CARDS
 .card-grid.timeline {
   position: relative;
   display: block;
-  max-width: 52rem;
+  max-width: 62rem;
   margin: 2.5rem auto 0;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
 }
 
 .card-grid.timeline::before {
   content: "";
   position: absolute;
-  left: 1rem;
+  left: 50%;
   top: 0.5rem;
-  bottom: 0.5rem;
+  bottom: 0.75rem;
   width: 2px;
+  transform: translateX(-50%);
   background: linear-gradient(
     to bottom,
-    rgba(107, 142, 127, 0.25),
-    rgba(107, 142, 127, 0.9),
-    rgba(107, 142, 127, 0.25)
+    rgba(107, 142, 127, 0.16),
+    rgba(107, 142, 127, 0.85),
+    rgba(107, 142, 127, 0.16)
   );
 }
 
 .card-grid.timeline .card {
   position: relative;
-  margin: 0 0 var(--spacing-lg) 2.75rem;
-  background: rgba(255, 255, 255, 0.54);
+  width: calc(50% - 2.25rem);
+  margin: 0 0 var(--spacing-lg) 0;
+  background: rgba(255, 255, 255, 0.58);
   border: 1px solid rgba(61, 78, 66, 0.1);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
   backdrop-filter: blur(6px);
 }
 
+.card-grid.timeline .card:nth-child(odd) {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.card-grid.timeline .card:nth-child(even) {
+  margin-left: auto;
+  margin-right: 0;
+}
+
 .card-grid.timeline .card::before {
   content: "";
   position: absolute;
-  left: -2.15rem;
-  top: 1.5rem;
-  width: 1rem;
-  height: 1rem;
+  top: 1.25rem;
+  width: 0.9rem;
+  height: 0.9rem;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--sage), var(--sage-deep));
   border: 3px solid var(--warm-white);
-  box-shadow: 0 0 0 4px rgba(107, 142, 127, 0.18);
+  box-shadow: 0 0 0 4px rgba(107, 142, 127, 0.14);
   z-index: 1;
+}
+
+.card-grid.timeline .card:nth-child(odd)::before {
+  right: -2.15rem;
+}
+
+.card-grid.timeline .card:nth-child(even)::before {
+  left: -2.15rem;
 }
 
 .card-grid.timeline .card:hover {
@@ -287,13 +306,19 @@ CARDS
 }
 
 .card-grid.timeline .card-body {
-  padding: var(--spacing-lg);
+  padding: 1.1rem 1.1rem 1.2rem;
 }
 
 .card-grid.timeline .card h3 {
   margin-top: 0;
-  font-size: clamp(1.2rem, 2vw, 1.6rem);
-  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  font-size: clamp(1.08rem, 1.8vw, 1.4rem);
+  line-height: 1.25;
+}
+
+.card-grid.timeline .card-text {
+  font-size: 0.96rem;
+  line-height: 1.5;
 }
 
 .card-grid.timeline .v-card {
@@ -301,7 +326,16 @@ CARDS
 }
 
 .card-grid.timeline .v-card .card-img-top {
-  height: 12rem;
+  height: 9.5rem;
+}
+
+.card-grid.timeline .tags {
+  margin-top: 0.75rem;
+}
+
+.card-grid.timeline .tag-pill {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.74rem;
 }
 
 @media (min-width: 768px) {
@@ -316,17 +350,27 @@ CARDS
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 700px) {
   .card-grid.timeline::before {
-    left: 0.75rem;
+    left: 1rem;
+    transform: none;
   }
 
   .card-grid.timeline .card {
-    margin-left: 2.2rem;
+    width: calc(100% - 2.6rem);
+    margin-left: 2.6rem;
+    margin-right: 0;
+  }
+
+  .card-grid.timeline .card:nth-child(odd),
+  .card-grid.timeline .card:nth-child(even) {
+    margin-left: 2.6rem;
+    margin-right: 0;
   }
 
   .card-grid.timeline .card::before {
-    left: -1.8rem;
+    left: -1.85rem;
+    right: auto;
   }
 }
 
