@@ -229,6 +229,81 @@ CARDS
   margin-bottom: var(--spacing-lg);
 }
 
+.card-grid.timeline {
+  position: relative;
+  display: block;
+  max-width: 52rem;
+  margin: 2.5rem auto 0;
+  padding: 0.5rem 0;
+}
+
+.card-grid.timeline::before {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    rgba(107, 142, 127, 0.25),
+    rgba(107, 142, 127, 0.9),
+    rgba(107, 142, 127, 0.25)
+  );
+}
+
+.card-grid.timeline .card {
+  position: relative;
+  margin: 0 0 var(--spacing-lg) 2.75rem;
+  background: rgba(255, 255, 255, 0.54);
+  border: 1px solid rgba(61, 78, 66, 0.1);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(6px);
+}
+
+.card-grid.timeline .card::before {
+  content: "";
+  position: absolute;
+  left: -2.15rem;
+  top: 1.5rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--sage), var(--sage-deep));
+  border: 3px solid var(--warm-white);
+  box-shadow: 0 0 0 4px rgba(107, 142, 127, 0.18);
+  z-index: 1;
+}
+
+.card-grid.timeline .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 28px rgba(45, 62, 53, 0.12);
+  border-color: rgba(107, 142, 127, 0.35);
+}
+
+.card-grid.timeline .card-link {
+  display: block;
+}
+
+.card-grid.timeline .card-body {
+  padding: var(--spacing-lg);
+}
+
+.card-grid.timeline .card h3 {
+  margin-top: 0;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  line-height: 1.2;
+}
+
+.card-grid.timeline .v-card {
+  min-height: unset;
+}
+
+.card-grid.timeline .v-card .card-img-top {
+  height: 12rem;
+}
+
 @media (min-width: 768px) {
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -238,6 +313,20 @@ CARDS
 @media (min-width: 1024px) {
   .card-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .card-grid.timeline::before {
+    left: 0.75rem;
+  }
+
+  .card-grid.timeline .card {
+    margin-left: 2.2rem;
+  }
+
+  .card-grid.timeline .card::before {
+    left: -1.8rem;
   }
 }
 
