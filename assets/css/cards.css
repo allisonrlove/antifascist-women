@@ -291,7 +291,7 @@ CARDS
 
 .card-grid.timeline .card:hover {
   transform: none;
-  box-shadow: none;
+  box-shadow: var(--shadow-hover);
   border-color: rgba(61, 78, 66, 0.32);
 }
 
@@ -325,8 +325,14 @@ CARDS
 }
 
 .card-grid.timeline .v-card .card-img-top {
-  height: 7rem;
+  height: 10rem;
+  background: var(--warm-white);
   border-bottom: 1px solid rgba(61, 78, 66, 0.16);
+}
+
+.card-grid.timeline .v-card .card-img-top img {
+  object-fit: contain;
+  object-position: center;
 }
 
 .card-grid.timeline .tags {
