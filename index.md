@@ -10,7 +10,7 @@ header-subtitle: >-
   their actions, writings, organizing, and participation in transnational
   antifascism between 1914 and 1945.
 header-position: 35% center
-header-height: 78vh
+header-height: 79vh
 ---
 
 ## Explore the Profiles
