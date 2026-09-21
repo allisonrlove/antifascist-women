@@ -17,9 +17,9 @@ Ada Prospero Marchesini Gobetti was born in Turin, Italy on July 13, 1902, as Ad
 
 {% include images/figure-wrap.html
   image-path="images/pierogobetti.jpeg"
+  caption="Piero Gobetti c. 1920."
   image-position="left"
   image-width="48%"
-  caption="Piero Gobetti c. 1920."
   text=chile_origins_text
 %}
 
@@ -36,9 +36,9 @@ Although standing up for these beliefs would prove ultimately difficult. Piero h
 
 {% include images/figure-wrap.html
   image-path="images/Invasionofitaly1943.jpg"
+  caption="Allied invasion of Italy, 1943."
   image-position="center"
   image-width="50%"
-  caption="Allied invasion of Italy, 1943."
   text=chile_nm_text
 %}
 
@@ -54,9 +54,9 @@ After the war she continued fighting for women's rights and a democratic, progre
 
 
 ## Bibliography
-Jomarie Alano. 2016. A Life of Resistance : Ada Prospero Marchesini Gobetti (1902-1968). Rochester, Ny: University Of Rochester Press.
 
-Gobetti, Ada. Partisan Diary : A Woman's Life in the Italian Resistance, Oxford University Press, Incorporated, 2014. ProQuest Ebook Central, http://ebookcentral.proquest.com/lib/unm/detail.action?docID=1760895.
+Alano, Jomarie. *A Life of Resistance: Ada Prospero Marchesini Gobetti (1902–1968).* Rochester, NY: University of Rochester Press, 2016.
 
+Gobetti, Ada. *Partisan Diary: A Woman's Life in the Italian Resistance.* Oxford University Press, 2014. ProQuest Ebook Central. http://ebookcentral.proquest.com/lib/unm/detail.action?docID=1760895.
 
-Access to University Library Resources | the University of New Mexico.” 2026. Unm.edu. 2026. https://www-jstor-org.libproxy.unm.edu/stable/29776690?site=jstor&seq=5.
+“Access to University Library Resources.” University of New Mexico, 2026. https://www-jstor-org.libproxy.unm.edu/stable/29776690?site=jstor&seq=5.

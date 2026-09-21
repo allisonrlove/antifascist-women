@@ -23,13 +23,11 @@ She appears to have been a bright student, a popular athlete, and a likeable cla
 
 {% include images/figure-wrap.html
   image-path="images/american-ambulance.jpg"
+  caption="One of the American hospitals bound for Spain during the Spanish Civil War."
   image-position="left"
   image-width="48%"
-  caption="One of the American hospitals bound for Spain during the Spanish Civil War."
   text=chile_origins_text
 %}
-
-{% include typography/pullquote.html text="\"Kea recalls being allowed to sit in the very back, upper row of the “white” movie theater, and swimming at the “black” public pool just outside of town. “That’s just the way it was,” she remembers.\"" %}
 
 After finishing high school, Kea applied to local nursing schools in Ohio but was rejected because of her race, so she applied to nursing school in New York City instead. 
 
@@ -53,16 +51,14 @@ Although Kea would serve at least three other hospitals during her time in Spain
 
 {% include images/figure-wrap.html
   image-path="images/a-negro-nurse.jpg"
+  caption="A Negro Nurse in Republican Spain propaganda pamphlet."
   image-position="right"
   image-width="45%"
-  caption="A Negro Nurse in Republican Spain propaganda pamphlet."
   text=chile_nm_text
 %}
 
 
 ## After Spain
-
-{% include typography/pullquote.html text="\"For the volunteer soldiers and nurses like Kea, they believed that going to Spain was simply “the right thing” to do, in hopes for a newer and better world. \"" %}
 
 After Kea returned from Spain she continued to protest fascism and oppression by raising money and awareness for Republican Spain, serving in the Second World War, and participating in the desegregation of New York City hospitals, as the color line began to fray during wartime needs and the emerging Civil Rights movement. 
 
@@ -86,4 +82,6 @@ Her work as a Black nurse who rose through the ranks in a highly hierarchical in
 
 ---
 
-**Sources:** A Negro Nurse in Republican Spain, New York: The Negro Committee to Aid Spain with the Medical Bureau and North American Committee to Aid Spanish Democracy, 1938. Tamiment Special Collections, New York University, Fredericka Martin Papers, ALBA 001, Various Boxes. 
+## Bibliography
+
+*A Negro Nurse in Republican Spain.* New York: The Negro Committee to Aid Spain with the Medical Bureau and North American Committee to Aid Spanish Democracy, 1938. Tamiment Special Collections, New York University, Fredericka Martin Papers, ALBA 001, various boxes.

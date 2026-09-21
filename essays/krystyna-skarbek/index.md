@@ -36,8 +36,12 @@ From the Alps, she was transferred to Southeastern France by August, when "a res
 Krystyna would end the war as an Honorary Flying Officer. Post-war she would be awared the George Medal, the Croix de Guerre, and made an Officer of The British Empire (a rank above the usual "Member of The British Empire")
 Despite her heroism and pivotal role in WWII, Krystyna's post-war life was marked with unfulfilling jpbs, and she was later murdered by a jilted ex-lover in 1952.
 
-## Works cited
-Mulley, C. The Spy Who Loved: The Secrets and Lives of Christine Granville. St. Martin’s Griffin, 2014.
-Nowicki, R. “Krystyna Skarbek: A Letter” The Polish Review, Vol. 50, No 1. (2005): pp. 93-10  http://www.jstor.com/stable/25779522
-Storey, N. “Krystyna Skarbek-Granville GM, OBE, Croix de Guerre, born (ca. 1908-1952)” in Great British Adventurers. Remember When, 2012. 
-Smith, S. “Christine Granville, A Spy Who Helped Finish Nazis.” Investor’s Business Daily, 2013.
+## Bibliography
+
+Mulley, C. *The Spy Who Loved: The Secrets and Lives of Christine Granville.* St. Martin’s Griffin, 2014.
+
+Nowicki, R. “Krystyna Skarbek: A Letter.” *The Polish Review* 50, no. 1 (2005): 93–10. http://www.jstor.com/stable/25779522.
+
+Smith, S. “Christine Granville, a Spy Who Helped Finish Nazis.” *Investor’s Business Daily*, 2013.
+
+Storey, N. “Krystyna Skarbek-Granville GM, OBE, Croix de Guerre, Born (ca. 1908–1952).” In *Great British Adventurers*. Remember When, 2012.

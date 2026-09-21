@@ -27,13 +27,11 @@ Her family was rather interlinked with Germany and German culture with her fathe
 
 {% include images/figure-wrap.html
   image-path="images/young_rosa.png"
+  caption="Rosa Luxemburg at age twelve."
   image-position="left"
   image-width="48%"
-  caption="Rosa Luxemburg at age twelve."
   text=chile_origins_text
 %}
-
-{% include typography/pullquote.html text="\"Luxemburg would have been in the company of socialists, who were well versed across a range of Marxist and socialist literatures and well practised in the organisational tactics of resistance.\"" %}
 
 Her rebellious streak and her affinity for the burgeoning Marxist movement in Poland eventually drew the ire of the Russian authorities leading to her fleeing Poland. She then in 1889 headed to Zurich to expand her intellectual opportunities and experience the heart of international socialist debate.
 
@@ -59,9 +57,9 @@ In 1902 we see her skills as an author begin to reemerge beyond that of editing 
 
 {% include images/figure-wrap.html
   image-path="images/chains.png"
+  caption="Rosa Luxemburg was always and forever a member of the radical wing, and until the day she died advocated for revolution."
   image-position="right"
   image-width="45%"
-  caption="Rosa Luxemburg was always and forever a member of the radical wing, and until the day she died advocated for revolution."
   text=chile_nm_text
 %}
 
@@ -75,8 +73,6 @@ The trend of the collapsing unity of the SPD continued in 1907 when at the Socia
 
 
 ## World War
-
-{% include typography/pullquote.html text="\"Violated, dishonored, wading in blood, dripping filth – there stands bourgeois society. This is it [in reality]. Not all spic and span and moral, with pretense to culture, philosophy, ethics, order, peace, and the rule of law – but the ravening beast, the witches’ sabbath of anarchy, a plague to culture and humanity. Thus it reveals itself in its true, its naked form.\"" %}
 
 On the 4th of August 1914, the First World War as we think of it today began; so too on August 4th did the SPD authorize war credits to the dismay of Luxemburg and the anti-militarists. Following this action, Luxemburg continued to agitate and argue against the war; but was ultimately arrested in February 1915. 
 
@@ -93,11 +89,12 @@ January 14th: Order Reigns in Berlin, January 15th: The arrest of Luxemburg and 
 
 ---
 
-**Bibligraphy:** 
-Council on Foreign Relations. “What Does Fascism Really Mean?: What is Fascism?.” Council on Foreign Relations. October 31, 2024. Education.cfr.org/learn/learning-journey/what-does-fascism-really-mean/what-is-fascism. 
+## Bibliography
 
-Luxemburg, Rosa. The Junius Pamphlet: The Crisis of German Social Democracy. Translated by Dave Hollis. (Illegally Published, 1916), chpt I, www.marxists.org/archive/luxemburg/1915/junius/ch01.htm. 
+Council on Foreign Relations. “What Does Fascism Really Mean? What Is Fascism?” Council on Foreign Relations, October 31, 2024. https://education.cfr.org/learn/learning-journey/what-does-fascism-really-mean/what-is-fascism.
 
-Nixon, Jon. Rosa Luxemburg and the Struggle for Democratic Renewal. (Pluto Press, 2018), ebookcentral.proquest.com/lib/unm/reader.action?docID=5391111&c=RVBVQg&ppg=3. 
+Luxemburg, Rosa. *The Junius Pamphlet: The Crisis of German Social Democracy.* Translated by Dave Hollis. Illegally published, 1916. Chapter 1. https://www.marxists.org/archive/luxemburg/1915/junius/ch01.htm.
 
-Nettl, J. P.. Rosa Luxemburg. (Oxford University Press, 1966), www.fulcrum.org/epubs/k3569718k?locale=en#page=1. 
+Nettl, J. P. *Rosa Luxemburg.* Oxford University Press, 1966. https://www.fulcrum.org/epubs/k3569718k?locale=en#page=1.
+
+Nixon, Jon. *Rosa Luxemburg and the Struggle for Democratic Renewal.* Pluto Press, 2018. https://ebookcentral.proquest.com/lib/unm/reader.action?docID=5391111&c=RVBVQg&ppg=3.

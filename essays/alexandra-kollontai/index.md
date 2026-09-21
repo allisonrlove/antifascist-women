@@ -26,15 +26,11 @@ Kollontai’s mother in fear for both Kollontai’s health and 'liberal influenc
 
 {% include images/figure-wrap.html
   image-path="images/alexandra-kollontai-1888.jpg"
+  caption="A portrait of Kollontai painted in 1888."
   image-position="left"
   image-width="48%"
-  caption="A portrait of Kollontai painted in 1888."
   text=chile_origins_text
 %}
-
-{% include typography/pullquote.html text="\"A child had not been able to draw the bonds of my marriage tighter. I still loved my husband, but the happy life of a housewife and spouse became for me a 'cage'.\"-Kolontai in her Autobiography" %}
-
-
 
 ## The Desires of the Heart
 
@@ -55,9 +51,9 @@ Kollontai also goes into a half page portion where she writes on how when two pe
 
 {% include images/figure-wrap.html
   image-path="images/alexandra-kollontai-fireplace.jpg"
+  caption="Kollontai."
   image-position="right"
   image-width="45%"
-  caption="Kollontai."
   text=chile_nm_text
 %}
 
@@ -86,11 +82,12 @@ Kollontai, even before fascism had begun its spread, lived a life resisting it a
 
 ---
 
-**Bibliography:** 
-Farnsworth, Beatrice Brodsky. 'Bolshevism, the Woman Question, and Aleksandra Kollontai.' The American Historical Review 81, no. 2 (April 1976): 292. https://doi.org/10.2307/1851172.
+## Bibliography
 
-Kollontai, Alexandra. 'Sexual Relations and the Class Struggle,' Translated by Alix Holt, 1921. https://www.marxists.org/archive/kollonta/1921/sex-class-struggle.htm.
+Farnsworth, Beatrice Brodsky. “Bolshevism, the Woman Question, and Aleksandra Kollontai.” *The American Historical Review* 81, no. 2 (April 1976): 292. https://doi.org/10.2307/1851172.
 
- Kollontai, Alexandra The Autobiography of a Sexually Emancipated Communist Woman. Translated by Salvator Attansio, 2001. https://www.marxists.org/archive/kollonta/1926/autobiography.htm.
+Kollontai, Alexandra. “Sexual Relations and the Class Struggle.” Translated by Alix Holt. 1921. https://www.marxists.org/archive/kollonta/1921/sex-class-struggle.htm.
 
-Kollontai, Alexandra . 'Communism and the Family.' Translated by Alix Holt,  www.marxists.org, 1920. https://www.marxists.org/archive/kollonta/1920/communism-family.htm.
+Kollontai, Alexandra. *The Autobiography of a Sexually Emancipated Communist Woman.* Translated by Salvator Attansio. 2001. https://www.marxists.org/archive/kollonta/1926/autobiography.htm.
+
+Kollontai, Alexandra. “Communism and the Family.” Translated by Alix Holt. Marxists.org, 1920. https://www.marxists.org/archive/kollonta/1920/communism-family.htm.

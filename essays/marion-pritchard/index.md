@@ -37,8 +37,6 @@ Most significantly, she helped hide Fred Polak and his three children at a house
 
 ## Aftermath of the war
 
-{% include typography/pullquote.html text="\“The greatest rescuers of children were the parents who gave them up.”\"" %}
-
 By the end of the war 75 - 80% of the Netherlands jewish population had been or murdered. And of the 107,000 Dutch jews deported to concentration camps, only 5,200 survived. Marion herself was not a subject of the terror of the Holocaust, but when it came time to take action, she was proactive in protecting those in society who need it most, children. At a young age she put herself in danger to help families in need. Many believe that resistance doesn’t matter, and doesn’t change anything. Marion saving the lives of jewish children and families during the war serves as a reminder that standing in opposition to injustice is a choice that we can all get to make.
 
 
@@ -46,10 +44,12 @@ By the end of the war 75 - 80% of the Netherlands jewish population had been or 
 
 After the war, Marion joined the United Nations Relief and Rehabilitation (UNNRA). She worked in social services at Föhrenwald and Windsheim, aiding individuals displaced by the war. There, she met Anton Pritchard, an American soldier who was also volunteering with the UNNRA, and they eventually married, moving to the United States and settling in Boston, Massachusetts. In 1981, she was named one of the Righteous Among the Nations by Yad Vashem in Jerusalem. She spent the rest of her life as a practicing psychoanalyst, and was awarded the Wallenberg Medal in 1992 for her actions during the Holocaust. 
 
-## Sources
+## Bibliography
 
-Burns, Marsha. “Marion Pritchard, Dutch savior” The International Raoul Wallenberg Foundation. Accessed April 24th, 2026. https://www.raoulwallenberg.net/saviors/others/marion-pritchard-dutch-savior/. 
-Marion Prichard, interview by Marsha French, September 19th, 1984, transcript, United States Holocaust Memorial Museum. Accessed April 24, 2026. https://collections.ushmm.org/search/catalog/irn510800. 
-A Mighty Girl Staff, “The Dutch Resister Who Lied, Stole, and Even Killed" to Save the Lives of 150 Jewish Children During WWII”, A Mighty Girl. Accessed April 24th, 2026. https://www.amightygirl.com/blog?p=27345 
+Burns, Marsha. “Marion Pritchard, Dutch Savior.” *The International Raoul Wallenberg Foundation*. Accessed April 24, 2026. https://www.raoulwallenberg.net/saviors/others/marion-pritchard-dutch-savior/.
+
+French, Marsha, interviewer. “Interview with Marion Prichard.” September 19, 1984. Transcript. United States Holocaust Memorial Museum. Accessed April 24, 2026. https://collections.ushmm.org/search/catalog/irn510800.
+
+A Mighty Girl Staff. “The Dutch Resister Who Lied, Stole, and Even Killed to Save the Lives of 150 Jewish Children During WWII.” *A Mighty Girl*. Accessed April 24, 2026. https://www.amightygirl.com/blog?p=27345.
 
 

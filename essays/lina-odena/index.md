@@ -26,9 +26,9 @@ Fascism was brought during the civil war by Franco. His regime began to repel le
 
 {% include images/figure-wrap.html
   image-path="images/lina_odena_1.jpg"
+  caption="Photograph of Lina Odena taken between July and September 1936, shortly before her death."
   image-position="left"
   image-width="48%"
-  caption="Photograph of Lina Odena taken between July and September 1936, shortly before her death."
   text=chile_origins_text
 %}
 
@@ -52,9 +52,9 @@ She was able to achieve the post of commandant somewhere along her career by her
 
 {% include images/figure-wrap.html
   image-path="images/lina_odena_2.jpg"
+  caption="Photograph of Lina Odena taken between July and September 1936, shortly before her death."
   image-position="right"
   image-width="45%"
-  caption="Photograph of Lina Odena taken between July and September 1936, shortly before her death."
   text=chile_nm_text
 %}
 
@@ -73,29 +73,32 @@ These cards were used to influence other women and communists to fight in the wa
 
 {% include images/figure-wrap.html
   image-path="images/lina_odena_3.jpg"
+  caption="Front of card with a picture of Lina Odena. Lluís Serra Sancho Collection."
   image-position="left"
   image-width="48%"
-  caption="Front of card with a picture of Lina Odena. Lluís Serra Sancho Collection."
   text=after_death_text
 %}
 
 Many pieces of artwork were influeced by her. One piece by J.Pons, who made an oil painting portrait of Odena in her miliciana overalls (photo 1 below). Other pieces depicted miliciana woman to call people to help them fight (photo 2 below). Even photography of miliciana women were taken (photo 3 below). Odena's popularity brought attention to the milicianas as a whole. 
 
 {% assign images_list = "images/lina_odena_4.jpg,images/miliciana_woman_1.jpg,images/miliciana_woman_2.jpg" | split: ',' %}
-{% include images/carousel.html id="chile-types" images=images_list %}
+{% include images/carousel.html
+  id="lina-odena-images"
+  images=images_list
+%}
 
 These mythologies after her death, feminized her by focusing on her feminine virtues and framed her sucicde as a decision to protect her virtues against rape. Her effort in combat was just as important. Her contribution on the front lines inspired other women to take action and join the miliciana team during the Spanish Civl War.
 
 ---
 
-**Sources:**   
+## Bibliography
 
-Broue, Pierre, & Emile Temime. The Revolution and the Civil War in Spain. La revolution et la guerre d’Espagne, 1970.
+Broue, Pierre, and Emile Temime. *The Revolution and the Civil War in Spain: La révolution et la guerre d’Espagne.* 1970.
 
-Lines, Lisa. Female Combatants in the Spanish Civil War: Milicianas on the Front Lines and in Rearguard. Journal of International Women’s Studies, 2009.
+Lines, Lisa. “Female Combatants in the Spanish Civil War: Milicianas on the Front Lines and in Rearguard.” *Journal of International Women’s Studies*, 2009.
 
-Melvor, Jessica Elizabeth. Photography, War and Gender: Redefining Women’s Militancy During and After Conflict in Ireland and Spain. PhD diss, 2022.
+Melvor, Jessica Elizabeth. “Photography, War and Gender: Redefining Women’s Militancy During and After Conflict in Ireland and Spain.” PhD diss., 2022.
 
-Nash, Mary. ‘Milicianas’ and Homefront Heroines: Images of Women in Revolutionary Spain (1936-1939) History of European Ideas 11, 1989.
+Nash, Mary. “‘Milicianas’ and Homefront Heroines: Images of Women in Revolutionary Spain (1936–1939).” *History of European Ideas* 11 (1989).
 
-Valles, Eduard. Lina Odena, the legend of the militiawoman who committed suicide, and the mayor of el prat. Museu Nacional D'Art De Catalunya, 2023.
+Valles, Eduard. “Lina Odena, the Legend of the Militiawoman Who Committed Suicide, and the Mayor of El Prat.” Museu Nacional d’Art de Catalunya, 2023.

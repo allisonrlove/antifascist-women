@@ -22,9 +22,9 @@ Marie-Madelein spent her early years in Shanghai, China. Fourcade's father was a
 
 {% include images/figure-wrap.html
   image-path="images/forcade_young.webp"
+  caption="Marie-Madeleine Forcade was born into relative comfort but would find herself evading arrest and escaping capture throughout the war, always one step ahead of torture or death at the hands of the Gestapo."
   image-position="right"
   image-width="48%"
-  caption="Marie-Madeleine Forcade was born into relative comfort but would find herself evading arrest and escaping capture throughout the war, always one step ahead of torture or death at the hands of the Gestapo."
   text=chile_origins_text
 %}
 
@@ -38,17 +38,15 @@ Captured by Vichy police as well as German troops he managed to escape multiple 
 
 {% include images/figure-wrap.html
   image-path="images/navarre.jpg"
+  caption="Georges Loustanau Lacau was a product of France's foremost military academy Saint-Cyr, and the École Supérieure de Guerre, France's graduate war college. He was also a veteran of World War I and served under Marshal Philippe Pétain, who was later the Head of State of the Vichy Government. Lacau was considered a conservative who was equally as suspicious of communists, which demonstrates the diverse spectrum of antifascist operatives in France."
   image-position="left"
   image-width="48%"
-  caption="Georges Loustanau Lacau was a product of France's foremost military academy Saint-Cyr, and the École Supérieure de Guerre, France's graduate war college. He was also a veteran of World War I and served under Marshal Philippe Pétain, who was later the Head of State of the Vichy Government. Lacau was considered a conservative who was equally as suspicious of communists, which demonstrates the diverse spectrum of antifascist operatives in France."
   text=chile_origins_text
 %}
 
  On May 14, 1940 Nazi Germany manuevered through the Ardenne's forrest in Belgium and breached weak French defenses at the north end of the Maginot defensive line. By June 25, Marshall Pétain announced an armistice with Germany dividing France in two, an occupied (northern France) and a freezone (southern France).
 
 Great Brittain's intelligence agency MI 6 began searching for intelligence operatives inside France after Germany's invasion. They reached out to Lacau and his organization and formed a partnership that would last the rest of the war. Upon agreeing to work together the two organizations formed what would be known as the Alliance network which would boast 3,000 intelligence agents across France throughout the war. Lacau would eventually be arrested and imprisoned for the entirety of the war leaving Marie-Madeleine Forcade head of the network at 31 years old. 
-
-{% include typography/pullquote.html text=" \"...even now England was experiencing serious trouble in keeping her food supply...The important thing now is to sink enough ships to reduce England's imports to below the absolute minimum necessary for existence\" German Foreign Minister Joachim von Ribbentrop to Japanase ambassador in Berlin." %}
 
 ## Great Britain's Dire Straits
 
@@ -73,16 +71,13 @@ At the port city of Brest on the peninsula of Brittany along France's west Atlan
 
 {% include images/figure-wrap.html
   image-path="images/brest_sub_port.jpg"
-  image-position="left"
-  image-width="48"
   caption="U-boat bunker at Brest, France."
+  image-position="left"
+  image-width="48%"
   text=chile_nm_text
 %}
 
 
-
-
-{% include typography/pullquote.html text="\"Although Alliance began as an almost exclusively male organization, women accounted for some twenty percent of its existence. Like their male counterparts, they represented all classes of society, from maids and laundresses to Paris socialites.\" Lynne Olson" %}
 
 
 ## Noah's Ark
@@ -100,7 +95,10 @@ As head of the Alliance or Noah's Ark, Forcade recruited women because they were
 The carousel below shows Jeannie Rousseau, one of Forcade's fake id's, and a transmitter similar to the style that the Alliance used:
 
 {% assign images_list = "images/transmitter.jpg,images/rousseau.jpg,images/madame-fourcade.webp" | split: ',' %}
-{% include images/carousel.html id="chile-types" images=images_list %}
+{% include images/carousel.html
+  id="fourcade-images"
+  images=images_list
+%}
 
 
 
@@ -124,4 +122,6 @@ She died on July 20, 1989, she was the first woman to be given a funeral at Les 
 
 ---
 
-**Olson, Lynne. Madam Fourcade's Secret War: The Daring Young Woman Who Led France's Largest Spy Network Against Hitler. New York: Random House, 2019.
+## Bibliography
+
+Olson, Lynne. *Madam Fourcade's Secret War: The Daring Young Woman Who Led France's Largest Spy Network Against Hitler.* New York: Random House, 2019.

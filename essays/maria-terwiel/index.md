@@ -13,9 +13,9 @@ Maria Terwiel was born to Johannes and Rosa Terwiel in 1910.  She was born in Bo
 
 {% include images/figure-wrap.html
   image-path="images/Maria_Terwiel_1.jpeg"
+  caption="Maria Terwiel. Via Wikipedia."
   image-position="right"
   image-width="48%"
-  caption="Maria Terwiel. Via Wikipedia."
   text=chile_origins_text
 %}
 
@@ -27,9 +27,9 @@ Instead of a law career, she became a secretary at a textile company. When she g
 
 {% include images/figure-wrap.html
   image-path="images/Maria_Terwiel_Fiance.jpg"
+  caption="Maria Terwiel and her fiancé, Helmut Himpel. Via Wikipedia"
   image-position="left"
   image-width="48%"
-  caption="Maria Terwiel and her fiancé, Helmut Himpel. Via Wikipedia"
   text=chile_nm_text
 %}
 
@@ -37,9 +37,9 @@ Instead of a law career, she became a secretary at a textile company. When she g
 
 {% include images/figure-wrap.html
   image-path="images/The_SchulzeBoysen_Group.png"
+  caption="Find Terwiel in the top left of this graph."
   image-position="center"
   image-width="80%"
-  caption="Find Terwiel in the top left of this graph."
   text=chile_nm_text
 %}
 
@@ -61,10 +61,18 @@ The memory of this organization hasn’t been stagnant. Because of the communist
 
 ---
 
-**Sources and More Information** German Resistance Memorial Center. “GDW-Berlin: Biographie Maria Terwiel.” Gdw-berlin.de, 2026. https://www.gdw-berlin.de/en/recess/biographies/index-of-persons/biographie/view-bio/maria-terwiel/?no_cache=1.
-German Resistance Memorial Center. “GDW-Berlin: The Red Orchestra.” Gdw-berlin.de, 2025. https://www.gdw-berlin.de/en/recess/topics/14-the-red-orchestra.
-Hennig, Joachim. “012 Maria Terwiel (Member of the ‘Red Orchestra’ from Boppard).” Koblinz Memorial, 2021. https://web.archive.org/web/20230427185614/https://web25.otto.kundenserver42.de/Mahnmal_NEU/index.php/2013-12-12-02-07-02/die-lesemappen/296-012-maria-terwiel-mitglied-der-roten-kapelle-aus-boppard.
-Tuchel, Johannes. “Weltanschauliche Motivationen in Der Harnack/Schulze-Boysen-Organisation: („Rote Kapelle“).” Kirchliche Zeitgeschichte 1, no. 2 (1988): 267–92. http://www.jstor.org/stable/43750615.
-Trumpold, Julia. “Book Review: Red Orchestra: The Story of the Berlin Underground and the Circle of Friends Who Resisted Hitler, Revised Edition. By Anne Nelson.” Peace & Change 49 (February 2024): 287–89. https://doi.org/10.1111/pech.12666.
-Wikipedia Contributors. “Maria Terwiel.” Wikipedia. Wikimedia Foundation, April 1, 2026. https://en.wikipedia.org/wiki/Maria_Terwiel.
-Yager, Jane. "Silencing the Red Orchestra: Restoring a group to their rightful place in the memory of resistance." TLS. Times Literary Supplement, no. 6148 (2021): 20+. 
+## Bibliography
+
+German Resistance Memorial Center. “GDW-Berlin: Biographie Maria Terwiel.” 2026. https://www.gdw-berlin.de/en/recess/biographies/index-of-persons/biographie/view-bio/maria-terwiel/?no_cache=1.
+
+German Resistance Memorial Center. “GDW-Berlin: The Red Orchestra.” 2025. https://www.gdw-berlin.de/en/recess/topics/14-the-red-orchestra.
+
+Hennig, Joachim. “012 Maria Terwiel (Member of the ‘Red Orchestra’ from Boppard).” Koblenz Memorial, 2021. https://web.archive.org/web/20230427185614/https://web25.otto.kundenserver42.de/Mahnmal_NEU/index.php/2013-12-12-02-07-02/die-lesemappen/296-012-maria-terwiel-mitglied-der-roten-kapelle-aus-boppard.
+
+Tuchel, Johannes. “Weltanschauliche Motivationen in der Harnack/Schulze-Boysen-Organisation: (‘Rote Kapelle’).” *Kirchliche Zeitgeschichte* 1, no. 2 (1988): 267–92. http://www.jstor.org/stable/43750615.
+
+Trumpold, Julia. “Book Review: *Red Orchestra: The Story of the Berlin Underground and the Circle of Friends Who Resisted Hitler*, Revised Edition, by Anne Nelson.” *Peace & Change* 49 (February 2024): 287–89. https://doi.org/10.1111/pech.12666.
+
+Wikipedia Contributors. “Maria Terwiel.” *Wikipedia*. Wikimedia Foundation, April 1, 2026. https://en.wikipedia.org/wiki/Maria_Terwiel.
+
+Yager, Jane. “Silencing the Red Orchestra: Restoring a Group to Their Rightful Place in the Memory of Resistance.” *TLS: Times Literary Supplement*, no. 6148 (2021): 20+.
