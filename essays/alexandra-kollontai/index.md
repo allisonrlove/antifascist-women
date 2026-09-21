@@ -82,7 +82,10 @@ Kollontai, even before fascism had begun its spread, lived a life resisting it a
 
 ---
 
-## Bibliography
+{% include nav/essay-navigation.html %}
+
+<details class="essay-bibliography" markdown="1">
+<summary>Bibliography</summary>
 
 Farnsworth, Beatrice Brodsky. “Bolshevism, the Woman Question, and Aleksandra Kollontai.” *The American Historical Review* 81, no. 2 (April 1976): 292. https://doi.org/10.2307/1851172.
 
@@ -91,3 +94,4 @@ Kollontai, Alexandra. “Sexual Relations and the Class Struggle.” Translated 
 Kollontai, Alexandra. *The Autobiography of a Sexually Emancipated Communist Woman.* Translated by Salvator Attansio. 2001. https://www.marxists.org/archive/kollonta/1926/autobiography.htm.
 
 Kollontai, Alexandra. “Communism and the Family.” Translated by Alix Holt. Marxists.org, 1920. https://www.marxists.org/archive/kollonta/1920/communism-family.htm.
+</details>

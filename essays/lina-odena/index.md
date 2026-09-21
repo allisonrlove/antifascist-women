@@ -91,7 +91,10 @@ These mythologies after her death, feminized her by focusing on her feminine vir
 
 ---
 
-## Bibliography
+{% include nav/essay-navigation.html %}
+
+<details class="essay-bibliography" markdown="1">
+<summary>Bibliography</summary>
 
 Broue, Pierre, and Emile Temime. *The Revolution and the Civil War in Spain: La révolution et la guerre d’Espagne.* 1970.
 
@@ -102,3 +105,4 @@ Melvor, Jessica Elizabeth. “Photography, War and Gender: Redefining Women’s 
 Nash, Mary. “‘Milicianas’ and Homefront Heroines: Images of Women in Revolutionary Spain (1936–1939).” *History of European Ideas* 11 (1989).
 
 Valles, Eduard. “Lina Odena, the Legend of the Militiawoman Who Committed Suicide, and the Mayor of El Prat.” Museu Nacional d’Art de Catalunya, 2023.
+</details>

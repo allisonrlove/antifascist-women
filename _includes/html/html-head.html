@@ -55,6 +55,9 @@
 
   {% if page.layout == 'scrollstory' %}
   <link href="{{site.baseurl}}/assets/css/scrollstory.css" rel="stylesheet">
+  {% if page.path contains 'essays/' %}
+  <link href="{{site.baseurl}}/assets/css/essay-navigation.css" rel="stylesheet">
+  {% endif %}
   {% endif %}
 
   <!-- docs CSS - consistent table column widths for /docs/ pages -->

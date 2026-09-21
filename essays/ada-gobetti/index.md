@@ -53,10 +53,14 @@ She served as a leader in the resistance based in Turin, she helped organize par
 After the war she continued fighting for women's rights and a democratic, progressive Italy, viewing the Resistance as a foundation for ongoing social renewal. Following the liberation she would serve as the first female deputy mayor of Turin. She focused her efforts in her role by focusing on social welfare, educational reform, and promoting democratic values and spearheaded reconstruction efforts to rebuild the city after it had suffered heavy allied bombing due to its position as a major industrial hub. Her biggest initiative towards continuing to fight against fascism was put towards children’s education reform. She wanted to foster a system that emphasized anti-fascist education for children after. She focused on promoting active pedagogy that prioritized critical thinking. She sought to develop independent, morally engaged individuals capable of transforming society and avoiding conformity, heavily utilizing resistance ideals and encouraging children to learn through curiosity and experience. She even wrote a children’s book, Storia del gallo Sebastiano which sought to achieve this. She would eventually remarry in 1937 to an engineer named Ettore Marchesini. Her later years were marked by significant physical constraints due to illness and injury. In 1961, she worked with her son, Paolo Gobetti, and her daughter-in-law, Carla, to found the Centro studi Piero Gobetti in Turin to preserve the papers and memory of her late husband, Piero Gobetti. Ada Gobetti eventually died on March 14, 1968, in Turin at the age of 65.
 
 
-## Bibliography
+{% include nav/essay-navigation.html %}
+
+<details class="essay-bibliography" markdown="1">
+<summary>Bibliography</summary>
 
 Alano, Jomarie. *A Life of Resistance: Ada Prospero Marchesini Gobetti (1902–1968).* Rochester, NY: University of Rochester Press, 2016.
 
 Gobetti, Ada. *Partisan Diary: A Woman's Life in the Italian Resistance.* Oxford University Press, 2014. ProQuest Ebook Central. http://ebookcentral.proquest.com/lib/unm/detail.action?docID=1760895.
 
 “Access to University Library Resources.” University of New Mexico, 2026. https://www-jstor-org.libproxy.unm.edu/stable/29776690?site=jstor&seq=5.
+</details>

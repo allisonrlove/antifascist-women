@@ -1,0 +1,114 @@
+/* Essay sequence controls and collapsible bibliography */
+.essay-navigation {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--spacing-md);
+  margin: var(--spacing-xl) 0 var(--spacing-lg);
+  padding: var(--spacing-md) 0;
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.essay-navigation__item--next {
+  text-align: right;
+}
+
+.essay-navigation__link {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  max-width: 100%;
+  padding: 0.65rem 0.8rem;
+  color: var(--text-body);
+  text-decoration: none;
+  border-bottom: none;
+  border-radius: var(--radius-sm);
+  transition: color var(--transition-fast), background-color var(--transition-fast);
+}
+
+.essay-navigation__link:hover,
+.essay-navigation__link:focus-visible {
+  color: var(--text-body);
+  background: var(--bg-accent);
+  border-bottom: none;
+}
+
+.essay-navigation__direction {
+  color: var(--golden-clay-dark);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.essay-navigation__title {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.essay-bibliography {
+  margin: var(--spacing-lg) 0 var(--spacing-xl);
+  border-top: 1px solid var(--border-light);
+}
+
+.essay-bibliography summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md) 0;
+  color: var(--golden-clay-dark);
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.essay-bibliography summary::-webkit-details-marker {
+  display: none;
+}
+
+.essay-bibliography summary::after {
+  content: '+';
+  color: var(--sage);
+  font-family: var(--font-mono);
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.essay-bibliography[open] summary::after {
+  content: '\2212';
+}
+
+.essay-bibliography summary:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 4px;
+}
+
+.essay-bibliography p {
+  margin-bottom: var(--spacing-sm);
+  padding-left: 1.5rem;
+  text-indent: -1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .essay-navigation {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xs);
+  }
+
+  .essay-navigation__item--next {
+    text-align: left;
+  }
+
+  .essay-navigation__link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

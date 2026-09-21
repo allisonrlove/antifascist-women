@@ -89,7 +89,10 @@ January 14th: Order Reigns in Berlin, January 15th: The arrest of Luxemburg and 
 
 ---
 
-## Bibliography
+{% include nav/essay-navigation.html %}
+
+<details class="essay-bibliography" markdown="1">
+<summary>Bibliography</summary>
 
 Council on Foreign Relations. “What Does Fascism Really Mean? What Is Fascism?” Council on Foreign Relations, October 31, 2024. https://education.cfr.org/learn/learning-journey/what-does-fascism-really-mean/what-is-fascism.
 
@@ -98,3 +101,4 @@ Luxemburg, Rosa. *The Junius Pamphlet: The Crisis of German Social Democracy.* T
 Nettl, J. P. *Rosa Luxemburg.* Oxford University Press, 1966. https://www.fulcrum.org/epubs/k3569718k?locale=en#page=1.
 
 Nixon, Jon. *Rosa Luxemburg and the Struggle for Democratic Renewal.* Pluto Press, 2018. https://ebookcentral.proquest.com/lib/unm/reader.action?docID=5391111&c=RVBVQg&ppg=3.
+</details>

@@ -44,12 +44,16 @@ By the end of the war 75 - 80% of the Netherlands jewish population had been or 
 
 After the war, Marion joined the United Nations Relief and Rehabilitation (UNNRA). She worked in social services at Föhrenwald and Windsheim, aiding individuals displaced by the war. There, she met Anton Pritchard, an American soldier who was also volunteering with the UNNRA, and they eventually married, moving to the United States and settling in Boston, Massachusetts. In 1981, she was named one of the Righteous Among the Nations by Yad Vashem in Jerusalem. She spent the rest of her life as a practicing psychoanalyst, and was awarded the Wallenberg Medal in 1992 for her actions during the Holocaust. 
 
-## Bibliography
+{% include nav/essay-navigation.html %}
+
+<details class="essay-bibliography" markdown="1">
+<summary>Bibliography</summary>
 
 Burns, Marsha. “Marion Pritchard, Dutch Savior.” *The International Raoul Wallenberg Foundation*. Accessed April 24, 2026. https://www.raoulwallenberg.net/saviors/others/marion-pritchard-dutch-savior/.
 
 French, Marsha, interviewer. “Interview with Marion Prichard.” September 19, 1984. Transcript. United States Holocaust Memorial Museum. Accessed April 24, 2026. https://collections.ushmm.org/search/catalog/irn510800.
 
 A Mighty Girl Staff. “The Dutch Resister Who Lied, Stole, and Even Killed to Save the Lives of 150 Jewish Children During WWII.” *A Mighty Girl*. Accessed April 24, 2026. https://www.amightygirl.com/blog?p=27345.
+</details>
 
 

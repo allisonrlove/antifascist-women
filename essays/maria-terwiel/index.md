@@ -61,7 +61,10 @@ The memory of this organization hasn’t been stagnant. Because of the communist
 
 ---
 
-## Bibliography
+{% include nav/essay-navigation.html %}
+
+<details class="essay-bibliography" markdown="1">
+<summary>Bibliography</summary>
 
 German Resistance Memorial Center. “GDW-Berlin: Biographie Maria Terwiel.” 2026. https://www.gdw-berlin.de/en/recess/biographies/index-of-persons/biographie/view-bio/maria-terwiel/?no_cache=1.
 
@@ -76,3 +79,4 @@ Trumpold, Julia. “Book Review: *Red Orchestra: The Story of the Berlin Undergr
 Wikipedia Contributors. “Maria Terwiel.” *Wikipedia*. Wikimedia Foundation, April 1, 2026. https://en.wikipedia.org/wiki/Maria_Terwiel.
 
 Yager, Jane. “Silencing the Red Orchestra: Restoring a Group to Their Rightful Place in the Memory of Resistance.” *TLS: Times Literary Supplement*, no. 6148 (2021): 20+.
+</details>

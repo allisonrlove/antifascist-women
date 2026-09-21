@@ -122,6 +122,10 @@ She died on July 20, 1989, she was the first woman to be given a funeral at Les 
 
 ---
 
-## Bibliography
+{% include nav/essay-navigation.html %}
+
+<details class="essay-bibliography" markdown="1">
+<summary>Bibliography</summary>
 
 Olson, Lynne. *Madam Fourcade's Secret War: The Daring Young Woman Who Led France's Largest Spy Network Against Hitler.* New York: Random House, 2019.
+</details>

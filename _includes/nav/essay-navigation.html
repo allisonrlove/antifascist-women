@@ -1,0 +1,36 @@
+{% assign essay_pages = site.pages
+  | where_exp: "p", "p.path contains 'essays/'"
+  | where_exp: "p", "p.path != 'essays/index.md'"
+  | sort_natural: "title" %}
+{% assign previous_page = nil %}
+{% assign next_page = nil %}
+{% assign found_current = false %}
+
+{% for essay in essay_pages %}
+  {% if found_current and next_page == nil %}
+    {% assign next_page = essay %}
+  {% elsif essay.path == page.path %}
+    {% assign found_current = true %}
+  {% elsif found_current == false %}
+    {% assign previous_page = essay %}
+  {% endif %}
+{% endfor %}
+
+<nav class="essay-navigation" aria-label="Essay navigation">
+  <div class="essay-navigation__item essay-navigation__item--previous">
+    {% if previous_page %}
+    <a class="essay-navigation__link" href="{{ previous_page.url | relative_url }}">
+      <span class="essay-navigation__direction">&larr; Previous essay</span>
+      <span class="essay-navigation__title">{{ previous_page.title }}</span>
+    </a>
+    {% endif %}
+  </div>
+  <div class="essay-navigation__item essay-navigation__item--next">
+    {% if next_page %}
+    <a class="essay-navigation__link" href="{{ next_page.url | relative_url }}">
+      <span class="essay-navigation__direction">Next essay &rarr;</span>
+      <span class="essay-navigation__title">{{ next_page.title }}</span>
+    </a>
+    {% endif %}
+  </div>
+</nav>
