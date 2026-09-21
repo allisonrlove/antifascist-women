@@ -97,6 +97,55 @@
   line-height: 1.6;
 }
 
+/* Keep archival images aligned without cropping faces, documents, or artwork. */
+.container .figure-wrap__image {
+  overflow: visible;
+}
+
+.container .figure-wrap__image img {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  height: auto;
+  padding: 0.35rem;
+  object-fit: contain;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+}
+
+.container .figure-wrap__image figcaption {
+  position: relative;
+  margin: 0;
+  padding: 0.55rem 0.7rem;
+  background: color-mix(in srgb, var(--bg-card) 92%, transparent);
+}
+
+.container .xanthan-carousel {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
+}
+
+.container .xanthan-carousel__slide img {
+  object-fit: contain;
+  background: var(--bg-page);
+}
+
+/* A few legacy essay images use Markdown instead of the figure include. */
+.container > p > img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 28rem;
+  margin: var(--spacing-md) auto;
+  padding: 0.35rem;
+  object-fit: contain;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+}
+
 @media (max-width: 600px) {
   .essay-navigation {
     grid-template-columns: 1fr;
