@@ -18,8 +18,7 @@ This project will introduce readers to historical antifascism (1914-1945) by emp
 
 Browse the biographies below to learn more about each historical figure.
 
-{% assign all_pages = site.pages %}
-{% assign profiles = all_pages | where_exp: "p", "p.path contains 'essays/'" | where_exp: "p", "p.path != 'essays/index.md'" %}
+{% assign essay_pages = site.pages | where_exp: "p", "p.path contains 'essays/'" | where_exp: "p", "p.name == 'index.md'" | where_exp: "p", "p.path != 'essays/index.md'" %}
 
-{% include nav/profile-list profiles=profiles %}
+{% include nav/profile-list profiles=essay_pages %}
 

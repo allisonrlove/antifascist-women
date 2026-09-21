@@ -1,32 +1,66 @@
-{% assign profiles = include.profiles | sort_natural: "sort-name" %}
+{% assign profiles = include.profiles | default: include.records | sort_natural: "sort-name" %}
 
 <div class="profile-list">
   {% for profile in profiles %}
-  {% assign profile_name = profile.name | default: profile.title %}
-  {% assign sort_name = profile["sort-name"] | default: profile_name %}
-  {% assign sort_name_parts = sort_name | split: "," %}
-  {% assign surname = sort_name_parts[0] | strip %}
-  {% assign given_name = sort_name_parts[1] | default: "" | strip %}
-  {% assign context = profile.context | default: profile.summary %}
+  {% assign profile_name = profile.title %}
+  {% assign context = profile.summary | strip %}
+  {% assign metadata = profile.metadata %}
+  {% assign authors = profile.authors | default: profile["profile-authors"] %}
   {% assign source_link = profile["source-link"] | default: profile["repository-link"] %}
+  {% assign profile_image = profile.thumbnail %}
+  {% assign profile_dir = profile.dir | default: '' %}
+  {% assign profile_url = profile.url | relative_url %}
+  {% assign profile_image_first_char = profile_image | strip | slice: 0, 1 %}
 
   {% if profile_name %}
-  <article class="profile-list__row">
-    <div class="profile-list__identity">
-      <h3 class="profile-list__name"><span class="profile-list__surname">{{ surname }}</span>{% if given_name %}<span class="profile-list__given">, {{ given_name }}</span>{% endif %}</h3>
-    </div>
+  <article class="profile-record">
+    {% if profile_image %}
+    {% if profile_image contains 'http' %}
+      {% assign profile_image_url = profile_image %}
+    {% elsif profile_image_first_char == '/' %}
+      {% assign profile_image_url = profile_image | relative_url %}
+    {% else %}
+      {% assign profile_image_path = profile_dir | append: profile_image %}
+      {% assign profile_image_url = profile_image_path | relative_url %}
+    {% endif %}
+    <a class="profile-record__image-link" href="{{ profile_url }}" aria-label="View profile for {{ profile_name }}">
+      <img src="{{ profile_image_url }}" alt="{{ profile.alt | default: profile_name }}">
+    </a>
+    {% endif %}
 
-    <div class="profile-list__context-cell">
-      {% if context %}
-      <span class="profile-list__context">{{ context }}</span>
-      {% endif %}
-    </div>
+    <div class="profile-record__body">
+      <div>
+        <h3>{{ profile_name }}</h3>
+        {% if context != "" %}
+        <p class="profile-record__summary">{{ context }}</p>
+        {% endif %}
+      </div>
 
-    <div class="profile-list__links" aria-label="Links for {{ profile_name }}">
-      <a href="{{ site.baseurl }}{{ profile.url }}">Profile</a>
-      {% if source_link %}
-      <a href="{{ source_link }}">Source</a>
-      {% endif %}
+      <div class="profile-record__footer">
+        {% if metadata or authors %}
+        <dl class="profile-record__meta">
+          {% if metadata %}
+          <div>
+            <dt>Details</dt>
+            <dd>{{ metadata }}</dd>
+          </div>
+          {% endif %}
+          {% if authors %}
+          <div>
+            <dt>Authors</dt>
+            <dd>{{ authors | join: ", " }}</dd>
+          </div>
+          {% endif %}
+        </dl>
+        {% endif %}
+
+        <div class="profile-record__links" aria-label="Links for {{ profile_name }}">
+          {% if source_link %}
+          <a href="{{ source_link }}">Source</a>
+          {% endif %}
+          <a href="{{ profile_url }}">View profile</a>
+        </div>
+      </div>
     </div>
   </article>
   {% endif %}
