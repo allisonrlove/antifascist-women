@@ -234,9 +234,16 @@ if you want a different accent color just for headers.
 
 /* Space between header bottom edge and page content */
 .page-header ~ .container {
-  margin-top: 0;
-  padding-top: 4.5rem;
-  background: linear-gradient(to bottom, rgba(245, 243, 240, 0.72), var(--bg-page) 11rem);
+  position: relative;
+  z-index: 3;
+  margin-top: -5rem;
+  padding-top: 9rem;
+  background: linear-gradient(
+    to bottom,
+    transparent 0,
+    rgba(245, 243, 240, 0.78) 4rem,
+    var(--bg-page) 9rem
+  );
 }
 
 
@@ -436,6 +443,17 @@ if you want a different accent color just for headers.
     width: calc(100% - 2rem);
     padding: 2rem 1.25rem 2rem 1.5rem;
     margin-left: 1rem;
+  }
+
+  .page-header ~ .container {
+    margin-top: -3rem;
+    padding-top: 6rem;
+    background: linear-gradient(
+      to bottom,
+      transparent 0,
+      rgba(245, 243, 240, 0.82) 3rem,
+      var(--bg-page) 6rem
+    );
   }
 
   .page-header h1 {
