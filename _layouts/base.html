@@ -14,18 +14,18 @@
     {% if page.header-image %}
 
       {% include layout/page-header.html
-        image-path  = page.header-image
-        title       = page.header-title
-        subtitle    = page.header-subtitle
-        eyebrow     = page.header-eyebrow
-        divider     = page.header-divider
-        tier        = page.header-tier
-        filter      = page.header-filter
-        bg-position = page.header-position
-        bg-opacity  = page.header-opacity
-        zoom        = page.header-zoom
-        height      = page.header-height
-        caption     = page.header-caption
+        image-path  = page["header-image"]
+        title       = page["header-title"]
+        subtitle    = page["header-subtitle"]
+        eyebrow     = page["header-eyebrow"]
+        divider     = page["header-divider"]
+        tier        = page["header-tier"]
+        filter      = page["header-filter"]
+        bg-position = page["header-position"]
+        bg-opacity  = page["header-opacity"]
+        zoom        = page["header-zoom"]
+        height      = page["header-height"]
+        caption     = page["header-caption"]
       %}
 
     {% endif %}
