@@ -29,7 +29,7 @@ if you want a different accent color just for headers.
   --header-divider-line: rgba(255, 255, 255, 0.12);  /* Thin lines flanking divider text */
   --header-divider-text: rgba(255, 255, 255, 0.28);  /* Divider text color */
   --header-subtitle: rgba(255, 255, 255, 0.70);      /* Subtitle paragraph color */
-  --header-content-width: 52rem;
+  --header-content-width: 68rem;
 }
 
 
@@ -102,7 +102,7 @@ if you want a different accent color just for headers.
   justify-content: center;
   height: 100%;
   width: min(100%, var(--header-content-width));
-  padding: 3rem 5rem;
+  padding: 3rem clamp(3rem, 6vw, 6rem);
   margin-left: clamp(2rem, 8vw, 9rem);
   border-left: 1px solid rgba(255, 255, 255, 0.22);
 }
@@ -124,7 +124,7 @@ if you want a different accent color just for headers.
   font-weight: 400;
   color: var(--white);
   line-height: 1.05;
-  max-width: 12ch;
+  max-width: 24ch;
   margin-bottom: 0.6rem;
   margin-top: 0;
   text-shadow:
@@ -235,8 +235,8 @@ if you want a different accent color just for headers.
 /* Space between header bottom edge and page content */
 .page-header ~ .container {
   margin-top: 0;
-  padding-top: 3rem;
-  background: linear-gradient(to bottom, rgba(245, 243, 240, 0.98), var(--bg-page) 7rem);
+  padding-top: 4.5rem;
+  background: linear-gradient(to bottom, rgba(245, 243, 240, 0.72), var(--bg-page) 11rem);
 }
 
 
@@ -440,6 +440,7 @@ if you want a different accent color just for headers.
 
   .page-header h1 {
     font-size: clamp(2.35rem, 10vw, 3.5rem);
+    max-width: 16ch;
   }
 
   .page-header p {
