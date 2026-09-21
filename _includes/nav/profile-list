@@ -1,0 +1,36 @@
+{% assign profiles = include.profiles | sort_natural: "sort-name" %}
+
+<div class="profile-list">
+  {% for profile in profiles %}
+  {% assign profile_name = profile.name | default: profile.title %}
+  {% assign sort_name = profile["sort-name"] | default: profile_name %}
+  {% assign sort_name_parts = sort_name | split: "," %}
+  {% assign surname = sort_name_parts[0] | strip %}
+  {% assign given_name = sort_name_parts[1] | default: "" | strip %}
+  {% assign context = profile.context | default: profile.summary %}
+  {% assign source_link = profile["source-link"] | default: profile["repository-link"] %}
+
+  {% if profile_name %}
+  <article class="profile-list__row">
+    <div class="profile-list__identity">
+      <h3 class="profile-list__name"><span class="profile-list__surname">{{ surname }}</span>{% if given_name %}<span class="profile-list__given">, {{ given_name }}</span>{% endif %}</h3>
+    </div>
+
+    <div class="profile-list__context-cell">
+      {% if context %}
+      <span class="profile-list__context">{{ context }}</span>
+      {% endif %}
+    </div>
+
+    <div class="profile-list__links" aria-label="Links for {{ profile_name }}">
+      <a href="{{ site.baseurl }}{{ profile.url }}">Profile</a>
+      {% if source_link %}
+      <a href="{{ source_link }}">Source</a>
+      {% else %}
+      <span>Source</span>
+      {% endif %}
+    </div>
+  </article>
+  {% endif %}
+  {% endfor %}
+</div>

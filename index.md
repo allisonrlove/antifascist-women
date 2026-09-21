@@ -14,12 +14,12 @@ This website explores the biographies and histories of prominent European and Am
 
 This project will introduce readers to historical antifascism (1914-1945) by emphasizing the role of European and American women’s actions, writings, organizing, and participation within the transnational antifascism movement of the interwar period.
 
-## How to Navigate this Page:
+## Explore the Profiles
 
-The card grid below links to descriptive essays about each historical figure - click to explore and learn! 
+Browse the biographies below to learn more about each historical figure.
 
 {% assign all_pages = site.pages %}
-{% assign cards = all_pages | where_exp: "p", "p.path contains 'essays/'" | where_exp: "p", "p.path != 'essays/index.md'" %}
+{% assign profiles = all_pages | where_exp: "p", "p.path contains 'essays/'" | where_exp: "p", "p.path != 'essays/index.md'" %}
 
-{% include nav/card-grid.html cards=cards grid-class="timeline" %}
+{% include nav/profile-list profiles=profiles %}
 
