@@ -26,8 +26,6 @@
       <a href="{{ site.baseurl }}{{ profile.url }}">Profile</a>
       {% if source_link %}
       <a href="{{ source_link }}">Source</a>
-      {% else %}
-      <span>Source</span>
       {% endif %}
     </div>
   </article>

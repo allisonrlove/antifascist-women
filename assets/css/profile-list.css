@@ -1,0 +1,88 @@
+@media screen {
+  .profile-list {
+    width: 100%;
+    margin: var(--spacing-lg) 0 var(--spacing-xl);
+    border-top: 2px solid var(--accent-border);
+  }
+
+  .profile-list__row {
+    display: grid;
+    grid-template-columns: minmax(12rem, 0.8fr) minmax(0, 1.7fr) auto;
+    gap: var(--spacing-md);
+    align-items: center;
+    padding: var(--spacing-md) 0;
+    border-bottom: 1px solid var(--border-light);
+    transition: background-color var(--transition-fast), padding var(--transition-fast);
+  }
+
+  .profile-list__row:hover {
+    padding-right: var(--spacing-sm);
+    padding-left: var(--spacing-sm);
+    background-color: var(--bg-accent);
+  }
+
+  .profile-list__identity,
+  .profile-list__context-cell {
+    min-width: 0;
+  }
+
+  .profile-list__name {
+    margin: 0;
+    color: var(--text-h3);
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+
+  .profile-list__given {
+    font-weight: 400;
+  }
+
+  .profile-list__context {
+    display: block;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+
+  .profile-list__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: var(--spacing-xs);
+  }
+
+  .profile-list__links a {
+    display: inline-block;
+    padding: 0.4rem 0.7rem;
+    color: var(--text-on-dark);
+    background-color: var(--accent-primary);
+    border: 1px solid var(--accent-primary);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color var(--transition-fast), border-color var(--transition-fast);
+  }
+
+  .profile-list__links a:hover,
+  .profile-list__links a:focus {
+    color: var(--text-on-dark);
+    background-color: var(--interactive-hover);
+    border-color: var(--interactive-hover);
+    text-decoration: none;
+  }
+
+  @media (max-width: 700px) {
+    .profile-list__row {
+      grid-template-columns: 1fr;
+      gap: var(--spacing-xs);
+      align-items: start;
+    }
+
+    .profile-list__links {
+      justify-content: flex-start;
+      margin-top: var(--spacing-xs);
+    }
+  }
+}
