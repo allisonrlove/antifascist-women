@@ -97,17 +97,32 @@
   line-height: 1.6;
 }
 
-/* Keep archival images aligned without cropping faces, documents, or artwork. */
+/* Let essay prose flow naturally around images at their original proportions. */
+.container .figure-wrap {
+  display: flow-root;
+  margin-bottom: var(--spacing-lg);
+}
+
 .container .figure-wrap__image {
+  float: left;
+  width: var(--figure-wrap-image-width, 40%);
+  margin: 0 var(--spacing-md) var(--spacing-sm) 0;
   overflow: visible;
 }
 
+.container .figure-wrap--right .figure-wrap__image {
+  float: right;
+  margin: 0 0 var(--spacing-sm) var(--spacing-md);
+}
+
+.container .figure-wrap__text {
+  display: block;
+}
+
 .container .figure-wrap__image img {
-  aspect-ratio: 4 / 3;
   width: 100%;
   height: auto;
   padding: 0.35rem;
-  object-fit: contain;
   background: var(--bg-card);
   border: 1px solid var(--border-light);
   border-radius: var(--radius-sm);
@@ -159,5 +174,12 @@
   .essay-navigation__link {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .container .figure-wrap__image,
+  .container .figure-wrap--right .figure-wrap__image {
+    float: none;
+    width: 100%;
+    margin: 0 0 var(--spacing-sm);
   }
 }
