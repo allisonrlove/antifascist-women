@@ -86,10 +86,11 @@ CSS VARIABLE OVERRIDES
   --interactive-hover: var(--brick-red-light); 
  
   /* Fonts */
-  --font-heading: 'Archivo', sans-serif;
-  --font-body: 'Source Sans 3', sans-serif;
-  --font-serif: 'Source Serif 4', serif;
-  --font-mono: 'IBM Plex Mono', monospace;
+ /* Sophisticated Editorial Typography */
+--font-heading: 'Cormorant Garamond', serif;
+--font-body: 'Source Sans 3', sans-serif;
+--font-serif: 'Cormorant Garamond', serif;
+--font-mono: 'IBM Plex Mono', monospace;
 
   /* === Typography Overrides === */
 
