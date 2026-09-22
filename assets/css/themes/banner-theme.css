@@ -138,3 +138,44 @@ body::after {
 .page-header-content {
   border-left: none;
 }
+
+/* === Force Theme Typography === */
+
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+p,
+li,
+td,
+th,
+blockquote {
+  font-family: var(--font-body);
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--font-mono);
+}
+
+/* Keep essay/header titles serif */
+.page-header h1,
+.pullquote {
+  font-family: var(--font-serif);
+}
+
+/* Profile content */
+.container {
+  font-family: var(--font-body);
+}
