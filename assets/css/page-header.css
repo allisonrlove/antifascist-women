@@ -103,8 +103,9 @@ if you want a different accent color just for headers.
   justify-content: center;
   height: 100%;
   width: min(100%, var(--header-content-width));
-  padding: 2rem clamp(2rem, 5vw, 4rem);
+  padding: 2.5rem clamp(2rem, 5vw, 4rem) 2rem;
   margin-left: clamp(1rem, 4vw, 4rem);
+  margin-top: 3.5rem;
   border-left: 1px solid rgba(255, 255, 255, 0.22);
 }
 
@@ -233,19 +234,6 @@ if you want a different accent color just for headers.
   color: rgba(255, 255, 255, 0.85);
 }
 
-/* Space between header bottom edge and page content */
-.page-header ~ .container {
-  position: relative;
-  z-index: 3;
-  margin-top: -5rem;
-  padding-top: 9rem;
-  background: linear-gradient(
-    to bottom,
-    transparent 0,
-    rgba(245, 243, 240, 0.78) 4rem,
-    var(--bg-page) 9rem
-  );
-}
 
 
 /* =====================================================
