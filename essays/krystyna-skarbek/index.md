@@ -1,14 +1,14 @@
 ---
 title: "Krystyna Skarbek"
 layout: scrollstory
-header-image: images/skarbek-collage.jpg
 thumbnail: images/Krystyna flower.jpg
 position: 2
 summary: An overview of Krystyna Skarbek - Christine Granville
 ---
 
 # Krystyna Skarbek
-# Interwar Early Life
+
+## Interwar Early Life
 ![Krystyna solo B&W](<images/Krystyna solo BW.jpg>)
 
 Polish woman born to an aristocratic family in Warsaw, date of birth between 1908-1909. Exact date of birth unknown due to various documentations from Krystyna, her father, travel visas, and her later name change.

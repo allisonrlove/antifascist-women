@@ -6,7 +6,7 @@ position: 1
 summary: A biography of an anti-fascist woman in the early 20th century.
 ---
 
-## Who was Ada Gobetti?
+# Ada Gobetti
 
 Ada Gobetti was one of the most high profile antifascist female figures within Italy during the interwar period and during the Partisan resistance movement in Italy during World War II. She helped transform the role of women in Italy, empowering them to transition from domestic life to active, armed anti-fascist combatants and political participants. She combined decades of intellectual resistance with active armed struggle, running safe houses and transporting weapons while documenting the experience in her Diario partigiano “Partisan Diary”.
 

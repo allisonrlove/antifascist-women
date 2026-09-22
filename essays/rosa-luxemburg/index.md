@@ -1,13 +1,14 @@
 ---
 title: "Rosa Luxemburg"
 layout: scrollstory
-header-image: images/rosa_luxemburg_flowers.jpg
 thumbnail: images/rosa_luxemburg_flowers.jpg
 position: 4
 summary: German revolutionary woman who acted shortly following World War One.
 ---
 
-# Marxism and Antifascism
+# Rosa Luxemburg
+
+## Marxism and Antifascism
 
 To define antifascism, you must first define fascism; fascism is the promotion of militarism and nationalism to assert the supremacy of the state over notably class. A key way in which many fascist societies are formed is the backing of business interests to maintain relevance and authority. Antifascism in its very name is an ideology built out of a reaction to fascism, and one sect of this broader movement is that of the Marxists. 
 

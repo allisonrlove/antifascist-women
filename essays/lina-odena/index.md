@@ -1,13 +1,14 @@
 ---
 title: "Lina Odena"
 layout: scrollstory
-header-image: images/lina_odena_1.jpg
 thumbnail: images/lina_odena_1.jpg
 position: 1
 summary: Lina Odena was the most well known miliciana during the Spanish Civil War.
 ---
 
-# Lina Odena as a Miliciana in the Spanish Civil War
+# Lina Odena
+
+## Lina Odena as a Miliciana in the Spanish Civil War
 
 The miliciana are heroic women fighters during the Spanish Civil War. They were heroic figures that became a symbol of the mobilization of the Spanish people against fascism. Lina Odena was the most well-known miliciana during this time. 
 

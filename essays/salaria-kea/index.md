@@ -1,13 +1,12 @@
 ---
 title: "Salaria Kea"
 layout: scrollstory
-header-image: images/salaria_kea.jpg
 thumbnail: images/salaria_kea.jpg
 position: 1
 summary: Salaria Kea was the only Black American female to volunteer in the Spanish Civil War.
 ---
 
-# Salaria Kea in the Spanish Civil War
+# Salaria Kea
 
 Famous for her role as the only African American female nurse to volunteer for the Spanish Civil War, Salaria Kea used nursing as a vehicle to join the antifascist efforts during the Interwar period.
 

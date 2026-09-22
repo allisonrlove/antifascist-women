@@ -1,13 +1,14 @@
 ---
 title: "Alexandra Kollontai"
 layout: scrollstory
-header-image: images/alexandra-kollontai-main-image.jpg
 thumbnail: images/alexandra-kollontai-main-image.jpg
 position: 1
 summary: A biography of Alexandra Kollontai, a Communist and Femenist leader.
 ---
 
-# A Mad Female Bolshevik
+# Alexandra Kollontai
+
+## A Mad Female Bolshevik
 
 Alexandra Kollontai was one of the leading feminists within the socialist movement of Russia. Throughout her life she pushed for women’s rights as well as the rights of workers everywhere from Sweden to The United States of America. Much of Kollontai’s journey is documented throughout her works as well as an autobiography “The Autobiography of a Sexually Emancipated Communist Woman”. 
 
