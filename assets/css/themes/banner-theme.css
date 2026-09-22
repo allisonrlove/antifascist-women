@@ -180,37 +180,3 @@ samp {
 .container {
   font-family: var(--font-body);
 }
-body {
-  position: relative;
-}
-
-body::before,
-body::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  pointer-events: none;
-  z-index: 20;
-}
-
-body::before {
-  left: 0;
-  width: 4px;
-  background: var(--accent-primary);
-  box-shadow: 4px 0 22px rgba(107, 142, 127, 0.18);
-}
-
-body::after {
-  left: clamp(1rem, 4vw, 4rem);
-  background: rgba(255, 255, 255, 0.22);
-}
-
-.page-header-bar {
-  display: none;
-}
-
-.page-header-content {
-  border-left: none;
-}
