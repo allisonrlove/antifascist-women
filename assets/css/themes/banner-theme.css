@@ -1,79 +1,79 @@
-/* === Antifascist Poster Theme === */
-/*
-  Load this AFTER base.css, typography.css, nav.css, and cards.css in page-header.html
-
-  This theme draws directly from the visual palette of the 1937
-  antifascist women's march poster.
-
-  Color Philosophy:
-  - Ochre gold as the primary accent, drawn from the poster's warm yellow
-  - Deep blue-teal for navigation, headings, and structural elements
-  - Muted red for emphasis and interactive accents
-  - Warm ivory for readable page backgrounds
-  - Near-black brown for strong, high-contrast text
-  - Dusty blue for secondary elements and subtle contrast
-
-  Best for:
-  - Sites with historical or archival subject matter
-  - Projects centered on political posters, print culture, or social history
-  - Designs wanting a bold vintage palette while maintaining modern readability
-*/
-
-/*****************************************************
-CSS VARIABLE OVERRIDES
-*****************************************************/
-:root {
-  /* ===== Antifascist Poster Color Palette ===== */
-
-  /* Warm ochre from the poster's background */
-  --ochre: #9c7c30;
-  --ochre-dark: #72591f;
-  --ochre-light: #d2b96d;
-
-  /* Deep blue-teal from the poster's sky and lettering */
-  --blue-teal: #344f5b;
-  --blue-teal-dark: #1c323e;
-  --blue-teal-light: #678e9a;
-
-  /* Muted red from the flowers and graphic elements */
-  --poster-red: #8f3d38;
-  --poster-red-dark: #632522;
-  --poster-red-light: #b56b62;
-
-  /* Warm paper tones */
-  --ivory: #eee9dc;
-  --paper-light: #f7f4eb;
-  --paper-dark: #d8d0bd;
-
-  /* Dark ink / brown-black from the original print */
-  --ink: #261d16;
-  --ink-soft: #3a3029;
-
-  /* Dusty blue for secondary elements */
-  --dusty-blue: #8bafbc;
-
-  /* ===== Override Base Theme Variables ===== */
-  /* These MUST match variable names in base.css */
-
-  /* Backgrounds */
-  --bg-page: var(--ivory);
-  --bg-card: var(--paper-light);
-  --bg-code: #e2ddd0;
-  --bg-nav: var(--blue-teal-dark);
-
-  /* Text */
-  --text-body: var(--ink);
-  --text-on-dark: var(--ivory);
-  --text-muted: #625d54;
-
-  /* Accents & Interactive */
-  --accent-primary: var(--poster-red);
-  --accent-border: var(--ochre-dark);
-  --interactive-hover: var(--ochre-dark);
-
-  /* Keep default fonts from base.css - uncomment to override */
-  /* --font-heading: 'Inter', sans-serif; */
-  /* --font-body: 'Source Sans 3', sans-serif; */
-  /* --font-serif: 'Lora', serif; */
-  /* --font-mono: 'Fira Mono', monospace; */
+/* === Antifascist Poster Dark Theme === */
+/* 
+  Load this AFTER base.css, typography.css, nav.css, and cards.css in page-header.html 
+ 
+  This theme draws directly from the visual palette of the 1937 
+  antifascist women's march poster, reworked for a dark interface. 
+ 
+  Color Philosophy: 
+  - Deep blue-teal as the primary page and navigation background 
+  - Warm ivory for highly readable body text 
+  - Ochre gold for headings, borders, and primary accents 
+  - Muted red for links and interactive emphasis 
+  - Dusty blue for secondary elements 
+  - Near-black blue-teal for cards and recessed areas 
+ 
+  Best for: 
+  - Sites with historical or archival subject matter 
+  - Projects centered on political posters, print culture, or social history 
+  - Designs wanting a dramatic vintage print aesthetic with strong readability 
+*/ 
+ 
+/***************************************************** 
+CSS VARIABLE OVERRIDES 
+*****************************************************/ 
+:root { 
+  /* ===== Antifascist Poster Dark Color Palette ===== */ 
+ 
+  /* Warm ochre from the poster's background */ 
+  --ochre: #d2b96d; 
+  --ochre-dark: #9c7c30; 
+  --ochre-light: #ead79b; 
+ 
+  /* Deep blue-teal from the poster's sky and lettering */ 
+  --blue-teal: #344f5b; 
+  --blue-teal-dark: #162b34; 
+  --blue-teal-light: #8bafbc; 
+ 
+  /* Muted red from the flowers and graphic elements */ 
+  --poster-red: #b56b62; 
+  --poster-red-dark: #8f3d38; 
+  --poster-red-light: #cf8a80; 
+ 
+  /* Warm paper tones, used primarily for text */ 
+  --ivory: #eee9dc; 
+  --paper-light: #f7f4eb; 
+  --paper-dark: #c8c0ad; 
+ 
+  /* Dark ink / brown-black from the original print */ 
+  --ink: #261d16; 
+  --ink-soft: #3a3029; 
+ 
+  /* Dusty blue for secondary elements */ 
+  --dusty-blue: #8bafbc; 
+ 
+  /* ===== Override Base Theme Variables ===== */ 
+  /* These MUST match variable names in base.css */ 
+ 
+  /* Backgrounds */ 
+  --bg-page: var(--blue-teal-dark); 
+  --bg-card: #203b45; 
+  --bg-code: #1b3038; 
+  --bg-nav: #101f27; 
+ 
+  /* Text */ 
+  --text-body: var(--ivory); 
+  --text-on-dark: var(--ivory); 
+  --text-muted: #b8b3a7; 
+ 
+  /* Accents & Interactive */ 
+  --accent-primary: var(--ochre); 
+  --accent-border: var(--ochre-dark); 
+  --interactive-hover: var(--poster-red-light); 
+ 
+  /* Keep default fonts from base.css - uncomment to override */ 
+  /* --font-heading: 'Inter', sans-serif; */ 
+  /* --font-body: 'Source Sans 3', sans-serif; */ 
+  /* --font-serif: 'Lora', serif; */ 
+  /* --font-mono: 'Fira Mono', monospace; */ 
 }
