@@ -89,7 +89,6 @@ January 14th: Order Reigns in Berlin, January 15th: The arrest of Luxemburg and 
 
 ---
 
-{% include nav/essay-navigation.html %}
 
 <details class="essay-bibliography" markdown="1">
 <summary>Bibliography</summary>
@@ -102,3 +101,5 @@ Nettl, J. P. *Rosa Luxemburg.* Oxford University Press, 1966. https://www.fulcru
 
 Nixon, Jon. *Rosa Luxemburg and the Struggle for Democratic Renewal.* Pluto Press, 2018. https://ebookcentral.proquest.com/lib/unm/reader.action?docID=5391111&c=RVBVQg&ppg=3.
 </details>
+
+{% include nav/essay-navigation.html %}

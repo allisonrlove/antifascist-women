@@ -82,10 +82,11 @@ Her work as a Black nurse who rose through the ranks in a highly hierarchical in
 
 ---
 
-{% include nav/essay-navigation.html %}
 
 <details class="essay-bibliography" markdown="1">
 <summary>Bibliography</summary>
 
 *A Negro Nurse in Republican Spain.* New York: The Negro Committee to Aid Spain with the Medical Bureau and North American Committee to Aid Spanish Democracy, 1938. Tamiment Special Collections, New York University, Fredericka Martin Papers, ALBA 001, various boxes.
 </details>
+
+{% include nav/essay-navigation.html %}

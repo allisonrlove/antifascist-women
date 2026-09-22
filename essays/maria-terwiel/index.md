@@ -61,7 +61,7 @@ The memory of this organization hasn’t been stagnant. Because of the communist
 
 ---
 
-{% include nav/essay-navigation.html %}
+
 
 <details class="essay-bibliography" markdown="1">
 <summary>Bibliography</summary>
@@ -80,3 +80,5 @@ Wikipedia Contributors. “Maria Terwiel.” *Wikipedia*. Wikimedia Foundation, 
 
 Yager, Jane. “Silencing the Red Orchestra: Restoring a Group to Their Rightful Place in the Memory of Resistance.” *TLS: Times Literary Supplement*, no. 6148 (2021): 20+.
 </details>
+
+{% include nav/essay-navigation.html %}

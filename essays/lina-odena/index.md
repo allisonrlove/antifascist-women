@@ -91,7 +91,7 @@ These mythologies after her death, feminized her by focusing on her feminine vir
 
 ---
 
-{% include nav/essay-navigation.html %}
+
 
 <details class="essay-bibliography" markdown="1">
 <summary>Bibliography</summary>
@@ -106,3 +106,5 @@ Nash, Mary. “‘Milicianas’ and Homefront Heroines: Images of Women in Revol
 
 Valles, Eduard. “Lina Odena, the Legend of the Militiawoman Who Committed Suicide, and the Mayor of El Prat.” Museu Nacional d’Art de Catalunya, 2023.
 </details>
+
+{% include nav/essay-navigation.html %}

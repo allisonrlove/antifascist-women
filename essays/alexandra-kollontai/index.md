@@ -82,7 +82,7 @@ Kollontai, even before fascism had begun its spread, lived a life resisting it a
 
 ---
 
-{% include nav/essay-navigation.html %}
+
 
 <details class="essay-bibliography" markdown="1">
 <summary>Bibliography</summary>
@@ -95,3 +95,5 @@ Kollontai, Alexandra. *The Autobiography of a Sexually Emancipated Communist Wom
 
 Kollontai, Alexandra. “Communism and the Family.” Translated by Alix Holt. Marxists.org, 1920. https://www.marxists.org/archive/kollonta/1920/communism-family.htm.
 </details>
+
+{% include nav/essay-navigation.html %}
