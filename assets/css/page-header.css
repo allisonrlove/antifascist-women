@@ -241,7 +241,7 @@ if you want a different accent color just for headers.
    ===================================================== */
 
 .page-header--section {
-  height: 60vh;
+  height: 30vh;
   padding-bottom: 60px;
 }
 
