@@ -1,7 +1,6 @@
 ---
 title: "Ada Gobetti"
 layout: scrollstory
-header-image: images/ada3.jpg
 thumbnail: images/ada2.jpg
 position: 1
 summary: A biography of an anti-fascist woman in the early 20th century.
