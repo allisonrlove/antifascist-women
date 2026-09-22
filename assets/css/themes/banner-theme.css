@@ -1,100 +1,79 @@
-/* === Simple Theme Example === */
+/* === Antifascist Poster Theme === */
 /*
-  LEARNING GUIDE: Creating Your First Theme
+  Load this AFTER base.css, typography.css, nav.css, and cards.css in page-header.html
 
-  This file shows you how to create a basic theme that changes colors and fonts
-  without modifying any CSS files. It's perfect for beginners who want to
-  customize their site's appearance while keeping the default layout and styling.
+  This theme draws directly from the visual palette of the 1937
+  antifascist women's march poster.
 
-  HOW TO USE THIS FILE:
-  1. Copy this file and rename it (e.g., my-theme.css)
-  2. Change the colors below to your preferences
-  3. Optionally change the fonts
-  4. In _includes/page-header.html, uncomment the link to your theme file
-  5. Save and refresh
+  Color Philosophy:
+  - Ochre gold as the primary accent, drawn from the poster's warm yellow
+  - Deep blue-teal for navigation, headings, and structural elements
+  - Muted red for emphasis and interactive accents
+  - Warm ivory for readable page backgrounds
+  - Near-black brown for strong, high-contrast text
+  - Dusty blue for secondary elements and subtle contrast
 
-  WHAT THIS DOES:
-  - Changes site colors (backgrounds, text, accents)
-  - Optionally changes fonts
-  - Keeps all layouts, spacing, and component styles from base.css
-
-  WHAT THIS DOESN'T DO:
-  - Doesn't change element styles (heading sizes, borders, etc.)
-  - For advanced styling, see dark-energy.css
+  Best for:
+  - Sites with historical or archival subject matter
+  - Projects centered on political posters, print culture, or social history
+  - Designs wanting a bold vintage palette while maintaining modern readability
 */
 
 /*****************************************************
-STEP 1: DEFINE YOUR COLOR PALETTE
+CSS VARIABLE OVERRIDES
 *****************************************************/
-/*
-  First, pick your colors and give them descriptive names.
-  Use a color picker tool to get hex codes: https://coolors.co/
-*/
-
 :root {
-  /* ===== Your Color Palette ===== */
-  /* Replace these colors with your own preferences */
+  /* ===== Antifascist Poster Color Palette ===== */
 
-  --ocean-blue: #6A9FB4;      /* Deep blue for accents */
-  --sky-blue: #60151A;        /* Lighter blue for interactions */
-  --cloud-white: #231B14;     /* Very light blue-tinted white */
-  --pearl: #2f2b23;           /* Light background */
-  --charcoal: #A5812C;        /* Dark text */
-  --slate: #D3DBDB;           /* Muted text */
+  /* Warm ochre from the poster's background */
+  --ochre: #9c7c30;
+  --ochre-dark: #72591f;
+  --ochre-light: #d2b96d;
 
+  /* Deep blue-teal from the poster's sky and lettering */
+  --blue-teal: #344f5b;
+  --blue-teal-dark: #1c323e;
+  --blue-teal-light: #678e9a;
 
-  /* ===== Map Your Colors to Site Elements ===== */
-  /*
-    These variable names MUST match base.css exactly.
-    Just change what color they point to.
-  */
+  /* Muted red from the flowers and graphic elements */
+  --poster-red: #8f3d38;
+  --poster-red-dark: #632522;
+  --poster-red-light: #b56b62;
 
-  /* --- Backgrounds --- */
-  --bg-page: var(--cloud-white);     /* Main page background */
-  --bg-card: var(--pearl);           /* Card and panel backgrounds */
-  --bg-code: var(--pearl);           /* Code block backgrounds */
-  --bg-nav: var(--ocean-blue);       /* Navigation bar background */
+  /* Warm paper tones */
+  --ivory: #eee9dc;
+  --paper-light: #f7f4eb;
+  --paper-dark: #d8d0bd;
 
-  /* --- Text Colors --- */
-  --text-body: var(--charcoal);      /* Main text color */
-  --text-on-dark: var(--cloud-white);/* Text on dark backgrounds (like nav) */
-  --text-muted: var(--slate);        /* Less important text */
+  /* Dark ink / brown-black from the original print */
+  --ink: #261d16;
+  --ink-soft: #3a3029;
 
-  /* --- Accent Colors --- */
-  --accent-primary: var(--ocean-blue);     /* Links, buttons, headings */
-  --accent-border: var(--sky-blue);        /* Borders, underlines */
-  --interactive-hover: var(--sky-blue);    /* Hover states */
+  /* Dusty blue for secondary elements */
+  --dusty-blue: #8bafbc;
 
+  /* ===== Override Base Theme Variables ===== */
+  /* These MUST match variable names in base.css */
 
-  /* ===== Optional: Change Fonts ===== */
-  /*
-    Uncomment these lines to change fonts.
-    Remember to add the font import at the top of this file!
+  /* Backgrounds */
+  --bg-page: var(--ivory);
+  --bg-card: var(--paper-light);
+  --bg-code: #e2ddd0;
+  --bg-nav: var(--blue-teal-dark);
 
-    Example font import (add at top of file):
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-  */
+  /* Text */
+  --text-body: var(--ink);
+  --text-on-dark: var(--ivory);
+  --text-muted: #625d54;
 
-  /* --font-heading: 'Roboto', sans-serif; */
-  /* --font-body: 'Open Sans', sans-serif; */
-  /* --font-mono: 'Courier New', monospace; */
+  /* Accents & Interactive */
+  --accent-primary: var(--poster-red);
+  --accent-border: var(--ochre-dark);
+  --interactive-hover: var(--ochre-dark);
+
+  /* Keep default fonts from base.css - uncomment to override */
+  /* --font-heading: 'Inter', sans-serif; */
+  /* --font-body: 'Source Sans 3', sans-serif; */
+  /* --font-serif: 'Lora', serif; */
+  /* --font-mono: 'Fira Mono', monospace; */
 }
-
-
-/*****************************************************
-THAT'S IT!
-*****************************************************/
-/*
-  You're done! This simple theme only changes variables.
-  Everything else (layouts, spacing, component styles) is inherited
-  from the base CSS files.
-
-  NEXT STEPS:
-  - Test your colors for good contrast: https://webaim.org/resources/contrastchecker/
-  - Make sure dark text is readable on light backgrounds (and vice versa)
-  - View your site on different page types to see how colors work everywhere
-
-  WANT MORE CONTROL?
-  - See dark-energy.css for examples of custom element styling
-  - See the Customizing guide for more advanced techniques
-*/
