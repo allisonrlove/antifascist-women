@@ -24,7 +24,7 @@ HISTORICAL PROFILES — loaded on profile pages
   font-size: clamp(1.45rem, 3vw, 1.85rem);
   font-weight: 700;
   line-height: 1.15;
-  color: var(--golden-clay-dark);
+  color: var(--poster-gold-light);
   border-bottom: 2px solid rgba(61, 43, 26, 0.75);
 }
 
@@ -35,7 +35,7 @@ HISTORICAL PROFILES — loaded on profile pages
   font-weight: 600;
   font-style: italic;
   line-height: 1.2;
-  color: var(--sage-deep);
+  color: var(--paper-light);
 }
 
 .container h4 {
@@ -60,7 +60,7 @@ PROFILE METADATA CARD
     linear-gradient(135deg, rgba(245, 236, 224, 0.96), rgba(255, 255, 255, 0.82)),
     var(--bg-card);
   border: 1px solid rgba(184, 149, 106, 0.38);
-  border-top: 4px solid var(--golden-clay);
+  border-top: 4px solid var(--poster-gold-light);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
 }
@@ -73,7 +73,7 @@ PROFILE METADATA CARD
   letter-spacing: 0.08em;
   line-height: 1.2;
   text-transform: uppercase;
-  color: var(--golden-clay-dark);
+  color: var(--poster-gold-light);
 }
 
 .profile-metadata__name-row {
@@ -90,7 +90,7 @@ PROFILE METADATA CARD
   font-size: clamp(1.7rem, 5vw, 2.4rem);
   font-weight: 700;
   line-height: 1.1;
-  color: var(--golden-clay-dark);
+ color: var(--poster-gold-light);
 }
 
 
@@ -142,7 +142,7 @@ PROFILE METADATA CARD
   font-weight: 700;
   color: var(--text-on-dark);
   text-decoration: none;
-  background: var(--sage-deep);
+  background: var(--brick-red-dark);
   border-radius: var(--radius-sm);
   white-space: nowrap;
   transition: background-color var(--transition-fast);
@@ -151,7 +151,7 @@ PROFILE METADATA CARD
 .profile-metadata__link:hover,
 .profile-metadata__link:focus {
   color: var(--text-on-dark);
-  background: var(--golden-clay-dark);
+  background: var(--poster-gold-light);;
 }
 
 /*****************************************************

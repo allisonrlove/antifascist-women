@@ -59,10 +59,26 @@ CSS VARIABLE OVERRIDES
   --bg-code: #202c31; 
   --bg-nav: #191713; 
  
-  /* Text */ 
-  --text-body: var(--paper-light); 
-  --text-on-dark: var(--paper-light); 
-  --text-muted: var(--paper-muted); 
+  /* Text */
+  --text-body: var(--paper-light);
+  --text-on-dark: var(--paper-light);
+  --text-muted: var(--paper-muted);
+
+  /* Heading colors */
+  --text-h1: var(--poster-gold-light);
+  --text-h2: var(--poster-gold-light);
+  --text-h3: var(--paper-light);
+  --text-h4: var(--paper-light);
+  --text-h5: var(--poster-gold-light);
+
+  /* Override remaining Xanthan semantic colors */
+  --accent-primary-dark: var(--brick-red-dark);
+
+  /* Footer */
+  --bg-footer: var(--charcoal-soft);
+  --bg-footer-bottom: var(--charcoal);
+  --text-footer-link: var(--paper-light);
+  --text-footer-bottom: var(--paper-muted);
  
   /* Accents & Interactive */ 
   --accent-primary: var(--poster-gold-light); 
