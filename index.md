@@ -2,6 +2,7 @@
 title: "Women, Europe, and Antifascism in the Early 20th Century"
 layout: base
 date: 2025-10-21
+header-image: "/assets/images/antifascist-march-mural-hh-2.jpeg"
 header-title: Women, Europe, and Antifascism in the Early 20th Century
 header-subtitle:
 header-tier: hero
