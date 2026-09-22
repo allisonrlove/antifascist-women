@@ -69,9 +69,8 @@ CSS VARIABLE OVERRIDES
   --accent-border: var(--poster-gold); 
   --interactive-hover: var(--brick-red-light); 
  
-  /* Keep default fonts from base.css - uncomment to override */ 
-  /* --font-heading: 'Inter', sans-serif; */ 
-  /* --font-body: 'Source Sans 3', sans-serif; */ 
-  /* --font-serif: 'Lora', serif; */ 
-  /* --font-mono: 'Fira Mono', monospace; */ 
-}
+  /* Fonts */
+  --font-heading: 'Archivo', sans-serif;
+  --font-body: 'Source Sans 3', sans-serif;
+  --font-serif: 'Source Serif 4', serif;
+  --font-mono: 'IBM Plex Mono', monospace;
