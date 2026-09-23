@@ -342,21 +342,42 @@ figure {
   text-align: center;
 }
 
+.container > h1,
+.container > h2,
+.container > h3,
+.container > h4 {
+  position: relative;
+}
+
+.container > h2 {
+  margin-top: var(--spacing-xl);
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.container p {
+  font-size: clamp(1.08rem, 1.9vw, 1.2rem);
+  line-height: 1.8;
+  text-align: left;
+}
+
 figcaption {
   /* Display */
   display: block;
   
   /* Box Model */
-  margin: 0.4rem 0 1rem 0;
+  margin: 0.2rem 0 0;
   padding: 0;
   clear: both;
   
   /* Typography */
   font-family: var(--font-body);
-  font-size: 0.8rem;
-  line-height: 1.1rem;
-  text-align: justify;
-  color: var(--text-body);
+  font-size: 0.76rem;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-align: left;
+  color: var(--text-muted);
 }
 
 figcaption a {
@@ -372,9 +393,21 @@ FIGURE WRAP — editorial image + text flow
 *****************************************************/
 
 .figure-wrap {
-  /* Keep the figure and its text in one editorial flow. A floated figure lets
-     the surrounding essay copy use the full measure beneath the image. */
-  margin-bottom: var(--spacing-lg);
+  /* Display */
+  display: grid;
+  grid-template-columns: var(--figure-wrap-image-width, 40%) 1fr;
+  gap: var(--spacing-lg);
+  align-items: center;
+
+  /* Box Model */
+  margin: var(--spacing-lg) 0;
+  padding: 0;
+
+  /* Visual */
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .figure-wrap__image {
@@ -384,15 +417,41 @@ FIGURE WRAP — editorial image + text flow
 }
 
 .figure-wrap--right .figure-wrap__image {
-  margin-right: 0;
-  margin-left: var(--spacing-lg);
-  float: right;
+  order: 2;
+}
+
+.figure-wrap--right .figure-wrap__text {
+  order: 1;
+}
+
+.figure-wrap__image {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .figure-wrap__image img {
   display: block;
   width: 100%;
   height: auto;
+  max-height: 28rem;
+  object-fit: contain;
+  border-radius: 2px;
+  border: 1px solid rgba(61, 78, 66, 0.12);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 26px rgba(45, 62, 53, 0.08);
+}
+
+.figure-wrap__text {
+  padding: 0.25rem 0;
+}
+
+.figure-wrap__text p {
+  margin-bottom: 1rem;
+  font-size: clamp(1.06rem, 1.75vw, 1.2rem);
+  line-height: 1.8;
+  text-align: left;
 }
 
 .figure-wrap__text {
