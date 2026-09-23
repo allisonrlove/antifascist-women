@@ -27,7 +27,7 @@ During her time at Zakopane, Krystyna met her soon-to-be second husband, busines
 The two would marry in 1938, directly prior to Gizycki's appointment as Polish consul in Addis Ababa.
 
 Shortly after landing in the capital, the couple was then informed of Hitler's invasion of Poland, thus causing them to move to London to fight for the Allies and protect their families.
-## Wwii and Antifascism
+## WWII and Antifascism
 ![Krystyna solo colored pic](<images/Krystyna colored pic.jpg>)
 
 With a strong sense of Polish pride, though Poland would not allow women in the Polish Resistance, Krystyna would lend aid to the Poles via Britain, where she worked as a special intelligence (SIS) operator.
