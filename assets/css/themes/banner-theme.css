@@ -69,3 +69,37 @@
 .top-nav-toggler-icon {
   filter: brightness(1.08);
 }
+
+/* Carry the poster's two vertical registration marks through the full page. */
+body {
+  position: relative;
+}
+
+body::before,
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 20;
+}
+
+body::before {
+  left: 0;
+  width: 4px;
+  background: var(--accent-primary);
+  box-shadow: 4px 0 22px rgba(163, 59, 73, 0.16);
+}
+
+body::after {
+  left: clamp(1.25rem, 4vw, 3.5rem);
+  width: 1px;
+  background: color-mix(in srgb, var(--poster-ochre) 55%, transparent);
+}
+
+@media (max-width: 768px) {
+  body::after {
+    left: 1rem;
+  }
+}
