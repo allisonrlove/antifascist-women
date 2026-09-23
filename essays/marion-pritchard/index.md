@@ -29,7 +29,7 @@ However, it wasn’t until she was released and bore witness to the abduction of
 {% include images/figure-wrap.html
   image-path="images/marionpritchardold.jpeg"
   image-position="left"
-  image-width="48%"
+  image-width="56%"
   caption="Marion Pritchard"
 %}
 

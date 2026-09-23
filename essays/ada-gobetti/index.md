@@ -34,7 +34,7 @@ Then eventually her role in the Italian Resistance and her later efforts in buil
   image-path="images/pierogobetti.jpeg"
   caption="Piero Gobetti c. 1920."
   image-position="left"
-  image-width="48%"
+  image-width="56%"
   text=chile_origins_text
 %}
 
@@ -72,7 +72,7 @@ Partisans, ranging from small groups of local civilians to large established und
   image-path="images/Invasionofitaly1943.jpg"
   caption="Allied invasion of Italy, 1943."
   image-position="right"
-  image-width="50%"
+  image-width="56%"
   text=chile_nm_text
 %}
 

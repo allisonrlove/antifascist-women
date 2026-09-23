@@ -14,7 +14,7 @@ Maria Terwiel was born to Johannes and Rosa Terwiel in 1910.  She was born in Bo
   image-path="images/Maria_Terwiel_1.jpeg"
   caption="Maria Terwiel. Via Wikipedia."
   image-position="left"
-  image-width="48%"
+  image-width="56%"
   text=chile_origins_text
 %}
 
@@ -34,7 +34,7 @@ He worked as a dentist, and a connection through a patient of his let them join 
   image-path="images/Maria_Terwiel_Fiance.jpg"
   caption="Maria Terwiel and her fiancé, Helmut Himpel. Via Wikipedia"
   image-position="right"
-  image-width="48%"
+  image-width="56%"
   text=chile_nm_text
 %}
 

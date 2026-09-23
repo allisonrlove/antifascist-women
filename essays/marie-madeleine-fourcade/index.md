@@ -16,7 +16,7 @@ Marie-Madelein spent her early years in Shanghai, China. Fourcade's father was a
   image-path="images/forcade_young.webp"
   caption="Marie-Madeleine Forcade was born into relative comfort but would find herself evading arrest and escaping capture throughout the war, always one step ahead of torture or death at the hands of the Gestapo."
   image-position="left"
-  image-width="48%"
+  image-width="56%"
   text=chile_origins_text
 %}
 
@@ -34,7 +34,7 @@ He survived the war, weighing less than one hundred pounds when the allies liber
   image-path="images/navarre.jpg"
   caption="Georges Loustanau Lacau was a product of France's foremost military academy Saint-Cyr, and the École Supérieure de Guerre, France's graduate war college. He was also a veteran of World War I and served under Marshal Philippe Pétain, who was later the Head of State of the Vichy Government. Lacau was considered a conservative who was equally as suspicious of communists, which demonstrates the diverse spectrum of antifascist operatives in France."
   image-position="right"
-  image-width="48%"
+  image-width="56%"
   text=chile_origins_text
 %}
 
@@ -86,7 +86,7 @@ Despite trying to, it was virtually impossible for the Germans to hide all of th
   image-path="images/brest_sub_port.jpg"
   caption="U-boat bunker at Brest, France."
   image-position="left"
-  image-width="48%"
+  image-width="56%"
   text=chile_nm_text
 %}
 
