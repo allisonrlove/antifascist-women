@@ -38,7 +38,7 @@ This family make up led to her knowing Polish, Russian, Hebrew, and German.
   image-path="images/young_rosa.png"
   caption="Rosa Luxemburg at age twelve."
   image-position="left"
-  image-width="48%"
+  image-width="56%"
   text=chile_origins_text
 %}
 
@@ -78,7 +78,7 @@ The piece was titled A Tactical Question, and one of its primary critiques was t
   image-path="images/chains.png"
   caption="Rosa Luxemburg was always and forever a member of the radical wing, and until the day she died advocated for revolution."
   image-position="right"
-  image-width="45%"
+  image-width="54%"
   text=chile_nm_text
 %}
 

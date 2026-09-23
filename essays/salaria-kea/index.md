@@ -26,7 +26,7 @@ She appears to have been a bright student, a popular athlete, and a likeable cla
   image-path="images/american-ambulance.jpg"
   caption="One of the American hospitals bound for Spain during the Spanish Civil War."
   image-position="left"
-  image-width="48%"
+  image-width="56%"
   text=chile_origins_text
 %}
 
@@ -62,7 +62,7 @@ It certainly was a stark contrast that Kea must have observed during her time at
   image-path="images/a-negro-nurse.jpg"
   caption="A Negro Nurse in Republican Spain propaganda pamphlet."
   image-position="right"
-  image-width="45%"
+  image-width="54%"
   text=chile_nm_text
 %}
 

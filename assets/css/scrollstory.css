@@ -17,6 +17,12 @@
   text-align: left;
 }
 
+/* Give essay figures a little more visual weight without widening the reading column. */
+.essay-container .figure-wrap {
+  gap: var(--spacing-sm);
+  margin-block: var(--spacing-md);
+}
+
 /* Text boxes within background images */
 .bg-text-box {
   /* Typography */

@@ -42,7 +42,7 @@ After this beginning of Kollontai’s freedom her rebellion continued against th
   image-path="images/alexandra-kollontai-1888.jpg"
   caption="A portrait of Kollontai painted in 1888."
   image-position="left"
-  image-width="48%"
+  image-width="56%"
   text=chile_origins_text
 %}
 
@@ -83,7 +83,7 @@ Within this portion Kollontai goes into the idea of two new lovers quickly decid
   image-path="images/alexandra-kollontai-fireplace.jpg"
   caption="Kollontai."
   image-position="right"
-  image-width="45%"
+  image-width="54%"
   text=chile_nm_text
 %}
 

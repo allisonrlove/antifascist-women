@@ -32,7 +32,7 @@ Women started to fight in the civil war and against fascism with the introductio
   image-path="images/lina_odena_1.jpg"
   caption="Photograph of Lina Odena taken between July and September 1936, shortly before her death."
   image-position="left"
-  image-width="48%"
+  image-width="56%"
   text=chile_origins_text
 %}
 
@@ -57,7 +57,7 @@ Her leadership skills in the Juventudes Socialistas Unificadas and the National 
   image-path="images/lina_odena_2.jpg"
   caption="Photograph of Lina Odena taken between July and September 1936, shortly before her death."
   image-position="right"
-  image-width="45%"
+  image-width="54%"
   text=chile_nm_text
 %}
 
@@ -81,7 +81,7 @@ These cards were used to influence other women and communists to fight in the wa
   image-path="images/lina_odena_3.jpg"
   caption="Front of card with a picture of Lina Odena. Lluís Serra Sancho Collection."
   image-position="left"
-  image-width="48%"
+  image-width="56%"
   text=after_death_text
 %}
 
