@@ -1,182 +1,71 @@
-/* === Antifascist Poster Dark Theme === */
-/* 
-  Load this AFTER base.css, typography.css, nav.css, and cards.css in page-header.html 
- 
-  This theme draws directly from the colors of the 1937 
-  antifascist women's march poster, adapted for a dark interface. 
- 
-  Color Philosophy: 
-  - Charcoal black as the primary background 
-  - Soft blue-gray for secondary backgrounds and structural elements 
-  - Warm muted gold for headings and primary accents 
-  - Brick red for links and important interactive elements 
-  - Pale gray-white for highly readable body text 
-  - Dusty blue for subtle contrast and secondary elements 
- 
-  Best for: 
-  - Sites with historical or archival subject matter 
-  - Projects centered on political posters, print culture, or social history 
-  - Designs wanting a vintage print aesthetic with a darker, contemporary feel 
-*/ 
- 
-/***************************************************** 
-CSS VARIABLE OVERRIDES 
-*****************************************************/ 
-:root { 
-  /* ===== Antifascist Poster Color Palette ===== */ 
- 
-  /* Deep charcoal from the poster's darkest printed areas */ 
-  --charcoal: #261e17; 
-  --charcoal-soft: #3a3028; 
-  --charcoal-light: #4b4035; 
- 
-  /* Muted blue-gray from the poster's sky and figures */ 
-  --blue-gray: #5d8595; 
-  --blue-gray-dark: #334f5c; 
-  --blue-gray-light: #7aa6b8; 
- 
-  /* Warm muted gold from the poster's yellow areas */ 
-  --poster-gold: #9e7d30; 
-  --poster-gold-dark: #74591f; 
-  --poster-gold-light: #c5a85e; 
- 
-  /* Brick red from the flowers and graphic elements */ 
-  --brick-red: #943f40; 
-  --brick-red-dark: #67282b; 
-  --brick-red-light: #b96868; 
- 
-  /* Pale printed-paper tones */ 
-  --paper: #d0d6d8; 
-  --paper-light: #e3e5e3; 
-  --paper-muted: #aeb8ba; 
- 
-  /* ===== Override Base Theme Variables ===== */ 
-  /* These MUST match variable names in base.css */ 
- 
-  /* Backgrounds */ 
-  --bg-page: var(--charcoal); 
-  --bg-card: #302a24; 
-  --bg-code: #202c31; 
-  --bg-nav: #191713; 
- 
-  /* Text */
-  --text-body: var(--paper-light);
-  --text-on-dark: var(--paper-light);
-  --text-muted: var(--paper-muted);
+/* === Antifascist Poster Light Theme === */
+/*
+  Load this after the Xanthan base styles. The palette is sampled from the
+  attached 1937 antifascist women's march poster: paper, ochre, ink, teal,
+  and poppy red.
+*/
 
-  /* Heading colors */
-  --text-h1: var(--poster-gold-light);
-  --text-h2: var(--poster-gold-light);
-  --text-h3: var(--paper-light);
-  --text-h4: var(--paper-light);
-  --text-h5: var(--poster-gold-light);
+:root {
+  /* Poster palette */
+  --poster-paper: #fbf7ed;
+  --poster-paper-deep: #f1e6c9;
+  --poster-ochre: #c99527;
+  --poster-ochre-dark: #8b6417;
+  --poster-teal: #2f6878;
+  --poster-teal-dark: #183c4c;
+  --poster-teal-light: #d9e9e9;
+  --poster-red: #a33b49;
+  --poster-red-dark: #762b37;
+  --poster-ink: #24343b;
+  --poster-muted: #5f6b6d;
 
-  /* Override remaining Xanthan semantic colors */
-  --accent-primary-dark: var(--brick-red-dark);
+  /* Xanthan semantic colors */
+  --bg-page: var(--poster-paper);
+  --bg-card: #fffdf8;
+  --bg-accent: var(--poster-paper-deep);
+  --bg-code: #e4eeee;
+  --bg-nav: var(--poster-teal-dark);
 
-  /* Footer */
-  --bg-footer: var(--charcoal-soft);
-  --bg-footer-bottom: var(--charcoal);
-  --text-footer-link: var(--paper-light);
-  --text-footer-bottom: var(--paper-muted);
- 
-  /* Accents & Interactive */ 
-  --accent-primary: var(--poster-gold-light); 
-  --accent-border: var(--poster-gold); 
-  --interactive-hover: var(--brick-red-light); 
- 
-  /* Fonts */
- /* Sophisticated Editorial Typography */
---font-heading: 'Cormorant Garamond', serif;
---font-body: 'Source Sans 3', sans-serif;
---font-serif: 'Cormorant Garamond', serif;
---font-mono: 'IBM Plex Mono', monospace;
+  --text-body: var(--poster-ink);
+  --text-on-dark: #fffdf8;
+  --text-muted: var(--poster-muted);
 
-  /* === Typography Overrides === */
+  --text-h1: var(--poster-teal-dark);
+  --text-h2: var(--poster-teal);
+  --text-h3: var(--poster-ink);
+  --text-h4: var(--poster-ink);
+  --text-h5: var(--poster-red-dark);
 
-/* Profile pages */
-.container {
-  font-family: var(--font-body);
+  --accent-primary: var(--poster-red);
+  --accent-primary-dark: var(--poster-red-dark);
+  --accent-border: var(--poster-ochre);
+  --interactive-hover: var(--poster-teal);
+
+  --border-light: rgba(24, 60, 76, 0.16);
+  --border-on-dark: rgba(255, 253, 248, 0.28);
+  --shadow-sm: 0 1px 4px rgba(24, 60, 76, 0.08);
+  --shadow-md: 0 4px 14px rgba(24, 60, 76, 0.10);
+  --shadow-lg: 0 10px 28px rgba(24, 60, 76, 0.14);
+
+  --bg-footer: var(--poster-teal-dark);
+  --bg-footer-bottom: #102d39;
+  --text-footer-link: #fffdf8;
+  --text-footer-bottom: #c5d9d8;
+
+  /* Page-header values are declared here because page-header.css loads later. */
+  --theme-header-bg: var(--poster-teal-dark);
+  --theme-header-overlay-start: rgba(24, 60, 76, 0.92);
+  --theme-header-overlay-mid: rgba(24, 60, 76, 0.72);
+  --theme-header-overlay-end: rgba(24, 60, 76, 0.18);
+  --theme-header-overlay-bottom: rgba(24, 60, 76, 0.52);
+  --theme-header-grid-line: rgba(255, 253, 248, 1);
+  --theme-header-divider-line: rgba(255, 253, 248, 0.32);
+  --theme-header-divider-text: rgba(255, 253, 248, 0.68);
+  --theme-header-subtitle: rgba(255, 253, 248, 0.86);
+  --theme-header-content-border: rgba(255, 253, 248, 0.34);
 }
 
-/* Pullquote quotation mark */
-.pullquote::before {
-  font-family: var(--font-serif);
-}
-
-/* Full-page vertical accent lines */
-body {
-  position: relative;
-}
-
-body::before,
-body::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  pointer-events: none;
-  z-index: 20;
-}
-
-body::before {
-  left: 0;
-  width: 4px;
-  background: var(--accent-primary);
-  box-shadow: 4px 0 22px rgba(107, 142, 127, 0.18);
-}
-
-body::after {
-  left: clamp(1rem, 4vw, 4rem);
-  background: rgba(255, 255, 255, 0.22);
-}
-
-.page-header-bar {
-  display: none;
-}
-
-.page-header-content {
-  border-left: none;
-}
-
-/* === Force Theme Typography === */
-
-body {
-  font-family: var(--font-body);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-heading);
-}
-
-p,
-li,
-td,
-th,
-blockquote {
-  font-family: var(--font-body);
-}
-
-code,
-pre,
-kbd,
-samp {
-  font-family: var(--font-mono);
-}
-
-/* Keep essay/header titles serif */
-.page-header h1,
-.pullquote {
-  font-family: var(--font-serif);
-}
-
-/* Profile content */
-.container {
-  font-family: var(--font-body);
+/* Keep the theme readable on components that use the dark navigation color. */
+.top-nav-toggler-icon {
+  filter: brightness(1.08);
 }
