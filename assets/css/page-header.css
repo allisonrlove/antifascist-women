@@ -24,11 +24,18 @@ if you want a different accent color just for headers.
    ===================================================== */
 
 .page-header {
-  --header-bg: #161618;                           /* Dark background behind the image */
-  --header-grid-line: rgba(255, 255, 255, 1);     /* Grid overlay lines (see opacity on .page-header-grid) */
-  --header-divider-line: rgba(255, 255, 255, 0.12);  /* Thin lines flanking divider text */
-  --header-divider-text: rgba(255, 255, 255, 0.28);  /* Divider text color */
-  --header-subtitle: rgba(255, 255, 255, 0.70);      /* Subtitle paragraph color */
+  /* Header color variables inherit from the active theme; these fallbacks
+     keep the component usable when no theme file is selected. */
+  --header-bg: var(--theme-header-bg, #161618);
+  --header-grid-line: var(--theme-header-grid-line, rgba(255, 255, 255, 1));
+  --header-divider-line: var(--theme-header-divider-line, rgba(255, 255, 255, 0.12));
+  --header-divider-text: var(--theme-header-divider-text, rgba(255, 255, 255, 0.28));
+  --header-subtitle: var(--theme-header-subtitle, rgba(255, 255, 255, 0.70));
+  --header-overlay-start: var(--theme-header-overlay-start, rgba(14, 16, 15, 0.92));
+  --header-overlay-mid: var(--theme-header-overlay-mid, rgba(14, 16, 15, 0.70));
+  --header-overlay-end: var(--theme-header-overlay-end, rgba(14, 16, 15, 0.18));
+  --header-overlay-bottom: var(--theme-header-overlay-bottom, rgba(14, 16, 15, 0.52));
+  --header-content-border: var(--theme-header-content-border, rgba(255, 255, 255, 0.22));
   --header-content-width: 68rem;
 }
 
@@ -66,8 +73,8 @@ if you want a different accent color just for headers.
   z-index: 2;
   pointer-events: none;
   background:
-    linear-gradient(90deg, rgba(14, 16, 15, 0.92) 0%, rgba(14, 16, 15, 0.70) 36%, rgba(14, 16, 15, 0.18) 76%, rgba(14, 16, 15, 0.35) 100%),
-    linear-gradient(0deg, rgba(14, 16, 15, 0.52), transparent 38%);
+    linear-gradient(90deg, var(--header-overlay-start) 0%, var(--header-overlay-mid) 36%, var(--header-overlay-end) 76%, var(--header-overlay-end) 100%),
+    linear-gradient(0deg, var(--header-overlay-bottom), transparent 38%);
 }
 
 /* Subtle grid overlay for visual texture */
@@ -106,7 +113,7 @@ if you want a different accent color just for headers.
   padding: 2.5rem clamp(2rem, 5vw, 4rem) 2rem;
   margin-left: clamp(1rem, 4vw, 4rem);
   margin-top: 3.5rem;
-  border-left: 1px solid rgba(255, 255, 255, 0.22);
+  border-left: 1px solid var(--header-content-border);
 }
 
 
@@ -440,7 +447,7 @@ if you want a different accent color just for headers.
     background: linear-gradient(
       to bottom,
       transparent 0,
-      rgba(245, 243, 240, 0.82) 3rem,
+      color-mix(in srgb, var(--bg-page) 82%, transparent) 3rem,
       var(--bg-page) 6rem
     );
   }
