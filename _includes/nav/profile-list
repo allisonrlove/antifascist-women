@@ -1,4 +1,4 @@
-{% assign profiles = include.profiles | default: include.records | sort_natural: "sort-name" %}
+{% assign profiles = include.profiles | default: include.records | sort_natural: "title" %}
 
 <div class="profile-list">
   {% for profile in profiles %}
