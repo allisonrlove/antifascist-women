@@ -366,7 +366,7 @@ PULLQUOTES
   z-index: 0;
 
   /* Typography */
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: var(--font-serif);
   font-size: 14rem;
   line-height: 0.8;
   color: var(--accent-primary);

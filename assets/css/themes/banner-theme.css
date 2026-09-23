@@ -52,6 +52,12 @@
   --text-footer-link: #fffdf8;
   --text-footer-bottom: #c5d9d8;
 
+  /* Antifascist editorial typography overrides Xanthan's default type stack. */
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Source Sans 3', sans-serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', 'Consolas', 'Menlo', monospace;
+
   /* Page-header values are declared here because page-header.css loads later. */
   --theme-header-bg: var(--poster-teal-dark);
   --theme-header-overlay-start: rgba(24, 60, 76, 0.92);
