@@ -1,7 +1,9 @@
 /* Scrollstory specific styles - fonts imported in base.css */
 /* Typography overrides for scrollstory pages — box model handled by base.css grid */
 .container {
-  max-width: 50rem;
+  width: calc(100% - 2rem);
+  max-width: 52rem;
+  margin-inline: auto;
   font-family: var(--font-body);
   font-size: clamp(1.08rem, 1.2vw + 0.75rem, 1.2rem);
   line-height: 1.7;
@@ -9,7 +11,7 @@
 
 .container p {
   /* Typography */
-  max-width: 44rem;
+  max-width: none;
   margin-bottom: 1.25rem;
   line-height: 1.72;
   text-align: left;
