@@ -663,7 +663,146 @@ BUTTONS
 
 /*****************************************************
 HERO SECTION (Homepage)
+
 *****************************************************/
+
+.home-intro {
+  position: relative;
+  max-width: 54rem;
+  margin: clamp(3rem, 8vw, 6rem) auto clamp(2.5rem, 6vw, 4.5rem);
+  padding: clamp(2rem, 5vw, 4rem) clamp(1.5rem, 5vw, 4.5rem);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--bg-accent) 86%, var(--bg-page)), var(--bg-page));
+  border-top: 1px solid var(--accent-border);
+  border-bottom: 1px solid color-mix(in srgb, var(--accent-border) 45%, transparent);
+  box-shadow: var(--shadow-md);
+}
+
+.home-intro::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.35rem;
+  height: 100%;
+  background: var(--accent-primary);
+}
+
+.home-intro__eyebrow,
+.profiles-teaser__eyebrow {
+  margin: 0 0 1rem;
+  color: var(--golden-clay-dark);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  line-height: 1.4;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.home-intro h2 {
+  max-width: 16ch;
+  margin: 0 0 1.25rem;
+  color: var(--sage-deep);
+  font-size: clamp(2.2rem, 5vw, 3.7rem);
+  font-weight: 500;
+  line-height: 0.98;
+}
+
+.home-intro__lead {
+  max-width: 42rem;
+  margin: 0;
+  color: var(--text-body);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.65;
+  text-align: left;
+}
+
+.profiles-teaser {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-lg);
+  max-width: 54rem;
+  margin: 0 auto clamp(4rem, 8vw, 7rem);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background: var(--sage-deep);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+}
+
+.profiles-teaser__copy {
+  max-width: 34rem;
+}
+
+.profiles-teaser__eyebrow {
+  margin-bottom: 0.5rem;
+  color: var(--sage-pale);
+}
+
+.profiles-teaser h2 {
+  margin: 0 0 0.45rem;
+  color: var(--warm-white);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  line-height: 1;
+}
+
+.profiles-teaser p:not(.profiles-teaser__eyebrow) {
+  margin: 0;
+  color: color-mix(in srgb, var(--warm-white) 78%, transparent);
+  text-align: left;
+}
+
+.profiles-teaser__link {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.85rem 1.15rem;
+  color: var(--sage-dark);
+  background: var(--golden-wash);
+  border: 1px solid var(--golden-wash);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color var(--transition-normal), color var(--transition-normal), transform var(--transition-fast);
+}
+
+.profiles-teaser__link:visited {
+  color: var(--sage-dark);
+  border-color: var(--golden-wash);
+}
+
+.profiles-teaser__link:hover,
+.profiles-teaser__link:focus-visible {
+  color: var(--white);
+  background: var(--interactive-hover);
+  border-color: var(--interactive-hover);
+  transform: translateX(3px);
+}
+
+.profiles-teaser__arrow {
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+@media (max-width: 600px) {
+  .home-intro {
+    margin-top: 2.5rem;
+  }
+
+  .profiles-teaser {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .profiles-teaser__link {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
 
 .hero-section {
   text-align: center;
@@ -719,6 +858,14 @@ HERO SECTION (Homepage)
   .container .alert {
     padding-left: var(--spacing-md);
     padding-right: var(--spacing-md);
+  }
+
+  .home-intro p,
+  .home-intro h2,
+  .profiles-teaser p,
+  .profiles-teaser h2 {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   /* On small screens, figures fill the full content column width */
