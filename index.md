@@ -18,7 +18,7 @@ header-position: 35% center
   <div class="profiles-teaser__copy">
     <p class="profiles-teaser__eyebrow">Explore the profiles</p>
     <h2 id="profiles-teaser-title">The people behind the movement</h2>
-    <p>Browse the biographies below to learn more about each historical figure.</p>
+    <p>Browse the biographies to learn more about each historical figure.</p>
   </div>
   <a class="profiles-teaser__link" href="{{ site.baseurl }}/essays/">
     <span>Browse the Bios</span>
