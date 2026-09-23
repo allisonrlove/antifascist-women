@@ -9,13 +9,19 @@ summary: An overview of Krystyna Skarbek - Christine Granville
 # Krystyna Skarbek
 
 ## Interwar Early Life
-![Krystyna solo B&W](<images/Krystyna solo BW.jpg>)
 
 Polish woman born to an aristocratic family in Warsaw, date of birth between 1908-1909. Exact date of birth unknown due to various documentations from Krystyna, her father, travel visas, and her later name change.
 
 Second born child of Count Jerzy Skarbek and Countess Stefania Skarbek, Krystyna grew up in a very privileged lifestyle.
 
 Spending the majority of her childhood in Roman Catholic boarding schools, learning "discipline and decorum", as well as horseback riding and skiing, which would later be of use in her antifascist activities.
+
+{% include images/figure-wrap.html
+  image-path="images/krystyna-solo-BW.jpg"
+  image-position="left"
+  image-width="56%"
+  text=chile_origins_text
+%}
 
 Krystyna was turning 18 when The Great Depression hit the Skarbek's, forcing them to sell the family bank, land, farm, and house. At this time, Krystyna Started working at a motor dealership and met her first husband, Gustav Gettlich.
 
@@ -28,13 +34,19 @@ The two would marry in 1938, directly prior to Gizycki's appointment as Polish c
 
 Shortly after landing in the capital, the couple was then informed of Hitler's invasion of Poland, thus causing them to move to London to fight for the Allies and protect their families.
 ## WWII and Antifascism
-![Krystyna solo colored pic](<images/Krystyna colored pic.jpg>)
 
 With a strong sense of Polish pride, though Poland would not allow women in the Polish Resistance, Krystyna would lend aid to the Poles via Britain, where she worked as a special intelligence (SIS) operator.
 
 Her first mission as a SIS member was to travel to them-neutral Budapest and assist in spreading British propaganda, as well as obtain information of German plans and whereabouts.
 
 During her first stay in Budapest, she would meet Andrzej Kowerski, an Allied Liutenant of Poland's only motorized brigade.
+
+{% include images/figure-wrap.html
+  image-path="images/krystyna-colored-pic.jpg"
+  image-position="left"
+  image-width="56%"
+  text=chile_origins_text
+%}
 
 Shortly after meeting and maintaining a stable relationship with Kowerski, Krystyna went, along with Polish Olympic skier Jan Marusarz and “Richard” an unknown VIP friend of Kowerskis, on a skiing incursion “From Budapest, over the Tatra mountains, and on across Slovakia into Zakopane” where she would continue her antifascist work, and attempt to convince her mother, an assimilated Jew, to leave Poland.
 
@@ -65,12 +77,18 @@ From the Alps, she was transferred to Southeastern France by August, when "a res
 She personally met with the Gestapo officer holding the allied men and convinced him to release them “by a combination of truths, half-truths, audacious lies.” This would be Krystyna's last operation as an SOE officer.
 
 ## Post-war Life and Assassination
-![Croix de Guerre](<images/Croix.jpg>)
 
 Krystyna would end the war as an Honorary Flying Officer.
 
 Post-war she would be awared the George Medal, the Croix de Guerre, and made an Officer of The British Empire (a rank above the usual "Member of The British Empire")
 Despite her heroism and pivotal role in WWII, Krystyna's post-war life was marked with unfulfilling jpbs, and she was later murdered by a jilted ex-lover in 1952.
+
+{% include images/figure-wrap.html
+  image-path="images/croixjpg"
+  image-position="left"
+  image-width="56%"
+  text=chile_origins_text
+%}
 
 <details class="essay-bibliography" markdown="1">
 <summary>Bibliography</summary>
