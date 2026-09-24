@@ -415,7 +415,7 @@ FIGURE WRAP — editorial image + text flow
 
   /* Box Model */
   width: var(--figure-wrap-image-width, 40%);
-  margin: 0 0 var(--spacing-sm) var(--spacing-md);
+  margin: 0 var(--spacing-lg) var(--spacing-sm) 0;
   float: left;
 }
 
