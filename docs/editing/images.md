@@ -78,7 +78,7 @@ When you want an image beside text rather than above or below it, use `figure-wr
 
 ## Image alongside text
 
-Sometimes an image and a passage of text belong together as equals---neither subordinate to the other, both necessary to the point. Use `figure-wrap.html` to place them side by side as an explicit two-column pair.
+Sometimes an image and a passage of text belong together as equals---neither subordinate to the other, both necessary to the point. Use `figure-wrap.html` to let the text flow around the image and its caption. The layout returns to full width after the complete image-and-caption block.
 
 ```
 {% raw %}{% include images/figure-wrap.html
@@ -86,8 +86,8 @@ Sometimes an image and a passage of text belong together as equals---neither sub
   caption="What a nice view"
   alt-text="Hiking trail through a canyon in the Sandia foothills."
   image-position="right"
-  image-width="45%"
-  text="The text you put here sits beside the image, not below it. Good for introductory paragraphs, a key argument tied to a specific image, or whenever the visual and the words need to be read together. Content that follows the include starts at full width below both columns."
+  image-width="40%"
+  text="The text you put here flows beside the image and continues at full width once it passes the image. Good for introductory paragraphs, a key argument tied to a specific image, or whenever the visual and the words need to be read together."
 %}{% endraw %}
 ```
 
@@ -97,7 +97,7 @@ Sometimes an image and a passage of text belong together as equals---neither sub
   alt-text="Hiking trail through a canyon in the Sandia foothills."
   image-position="right"
   image-width="45%"
-  text="The text you put here sits beside the image, not below it. Good for introductory paragraphs, a key argument tied to a specific image, or whenever the visual and the words need to be read together. Content that follows the include starts at full width below both columns."
+  text="The text you put here flows beside the image and continues at full width once it passes the image. Good for introductory paragraphs, a key argument tied to a specific image, or whenever the visual and the words need to be read together."
 %}
 
 The design forces a useful editorial question: *which* text belongs paired with this image? That's a decision worth making deliberately.
@@ -108,22 +108,22 @@ With `image-position` omitted (or set to `left`), the image sits on the left:
 
 {% include images/figure-wrap.html
   image-path="/assets/images/backgrounds/hike-1.jpg"
-  image-width="35%"
-  text="Left-aligned image at 35% width. The text column takes the remaining space. Markdown is supported in the text parameter---**bold**, *italic*, [links](#), and even line breaks."
+  image-width="40%"
+  text="Left-aligned image at 40% width. Text flows beside the image and continues below it once it passes the image. Markdown is supported in the text parameter---**bold**, *italic*, [links](#), and even line breaks."
 %}
 
-### Long text stays in its column
+### Long text continues naturally
 
-When the text is longer than the image is tall, it continues in the text column---it does not flow underneath the image. Whatever comes after the include starts at full width below both columns.
+When the text is longer than the image is tall, it continues at full width below the image---there is no forced empty column. The caption remains inside the floated figure, so body text cannot overlap it. Whatever comes after the include starts at full width after the complete figure block.
 
 {% include images/figure-wrap.html
   image-path="/assets/images/backgrounds/hike-1.jpg"
   image-position="right"
   image-width="35%"
-  text="This paragraph is long enough to extend past the bottom of the image. Notice that the text stays in its own column throughout---it doesn't wrap under the image the way a floated image would behave. The two columns are independent. When the text runs long, the image column simply ends at the image bottom and leaves empty space below it. This is predictable, intentional behavior: you know exactly what you're getting. The content that follows this include will start at full width, below the taller of the two columns."
+  text="This paragraph is long enough to extend past the bottom of the image. Notice that the text flows beside the image and then continues at full width below it. The caption is part of the figure, so text never overlaps the caption. This keeps the layout compact while preserving a clear reading order."
 %}
 
-This is content after the figure-wrap. It starts at full width below both columns.
+This is content after the figure-wrap. It starts at full width below the complete figure.
 
 ### Parameters
 
