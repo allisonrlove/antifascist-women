@@ -1,5 +1,5 @@
 /* Scrollstory specific styles - fonts imported in base.css */
-/* Typography overrides for scrollstory pages — box model handled by base.css grid */
+/* Typography overrides for scrollstory pages — figure flow is handled by base.css */
 .container {
   width: calc(100% - 2rem);
   max-width: 52rem;
@@ -19,8 +19,11 @@
 
 /* Give essay figures a little more visual weight without widening the reading column. */
 .essay-container .figure-wrap {
-  gap: var(--spacing-sm);
   margin-block: var(--spacing-md);
+}
+
+.essay-container .figure-wrap__image {
+  max-width: 42%;
 }
 
 /* Text boxes within background images */
@@ -136,6 +139,10 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .essay-container .figure-wrap__image {
+    max-width: 100%;
+  }
+
   .story-section {
     /* Box Model */
     padding: 1rem;
