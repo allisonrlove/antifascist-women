@@ -16,16 +16,18 @@ Second born child of Count Jerzy Skarbek and Countess Stefania Skarbek, Krystyna
 
 Spending the majority of her childhood in Roman Catholic boarding schools, learning "discipline and decorum", as well as horseback riding and skiing, which would later be of use in her antifascist activities.
 
-{% include images/figure-wrap.html
-  image-path="images/krystyna-solo-BW.jpg"
-  image-position="left"
-  image-width="56%"
-  text=chile_origins_text
-%}
-
+{% capture early_resistance_text %}
 Krystyna was turning 18 when The Great Depression hit the Skarbek's, forcing them to sell the family bank, land, farm, and house. At this time, Krystyna Started working at a motor dealership and met her first husband, Gustav Gettlich.
 
 The couple would last for a year before their amicable seperation. This is when Krystyna would be diagnosed with lung damage due to the car fumes in the Fiat office.
+{% endcapture %}
+
+{% include images/figure-wrap.html
+  image-path="images/krystyna-solo-BW.jpg"
+  image-position="left"
+  image-width="42%"
+  text=early_resistance_text
+%}
 
 Doctors would then advise her to vacation in the Polish ski town, Zakopane, where the "clear air might help offset the damage caused to her lungs."
 During her time at Zakopane, Krystyna met her soon-to-be second husband, businessman and occasional diplomat Jerzy Gizycki.
@@ -41,16 +43,20 @@ Her first mission as a SIS member was to travel to them-neutral Budapest and ass
 
 During her first stay in Budapest, she would meet Andrzej Kowerski, an Allied Liutenant of Poland's only motorized brigade.
 
+{% capture mission_text %}
+Shortly after meeting and maintaining a stable relationship with Kowerski, Krystyna went, along with Polish Olympic skier Jan Marusarz and “Richard” an unknown VIP friend of Kowerskis, on a skiing incursion “From Budapest, over the Tatra mountains, and on across Slovakia into Zakopane” where she would continue her antifascist work, and attempt to convince her mother, an assimilated Jew, to leave Poland.
+
+Krystyna was unsuccessful in the last regard, as her mother refused to leave and was soon thereafter murdered by Nazis.
+{% endcapture %}
+
 {% include images/figure-wrap.html
   image-path="images/krystyna-colored-pic.jpg"
   image-position="left"
-  image-width="56%"
-  text=chile_origins_text
+  image-width="42%"
+  text=mission_text
 %}
 
-Shortly after meeting and maintaining a stable relationship with Kowerski, Krystyna went, along with Polish Olympic skier Jan Marusarz and “Richard” an unknown VIP friend of Kowerskis, on a skiing incursion “From Budapest, over the Tatra mountains, and on across Slovakia into Zakopane” where she would continue her antifascist work, and attempt to convince her mother, an assimilated Jew, to leave Poland.
-
-Krystyna was unsuccessful in the last regard, as her mother refused to leave and was soon thereafter murdered by Nazis. From Zakopane, the group took the train to Warsaw, where Krystyna would first encounter the Gestapo.
+From Zakopane, the group took the train to Warsaw, where Krystyna would first encounter the Gestapo.
 
 During this interaction, she was carrying a bundle of British propaganda, but would use her charm to flirt with the agent and convince him that the bundle was black-market tea for her ill mother.
 
@@ -78,16 +84,18 @@ She personally met with the Gestapo officer holding the allied men and convinced
 
 ## Post-war Life and Assassination
 
+{% capture postwar_text %}
 Krystyna would end the war as an Honorary Flying Officer.
 
 Post-war she would be awared the George Medal, the Croix de Guerre, and made an Officer of The British Empire (a rank above the usual "Member of The British Empire")
 Despite her heroism and pivotal role in WWII, Krystyna's post-war life was marked with unfulfilling jpbs, and she was later murdered by a jilted ex-lover in 1952.
+{% endcapture %}
 
 {% include images/figure-wrap.html
-  image-path="images/croixjpg"
+  image-path="images/croix.jpg"
   image-position="left"
-  image-width="56%"
-  text=chile_origins_text
+  image-width="42%"
+  text=postwar_text
 %}
 
 <details class="essay-bibliography" markdown="1">

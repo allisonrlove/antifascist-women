@@ -10,14 +10,7 @@ summary: A biography of an anti-fascist woman in the early 20th century.
 
 Maria Terwiel was born to Johannes and Rosa Terwiel in 1910.  She was born in Boppard, near the Rhine and the French border. She was raised with two siblings, Gerd and Ursula. Her family later moved to Stettin, where her father worked as a civil servant.
 
-{% include images/figure-wrap.html
-  image-path="images/Maria_Terwiel_1.jpeg"
-  caption="Maria Terwiel. Via Wikipedia."
-  image-position="left"
-  image-width="56%"
-  text=chile_origins_text
-%}
-
+{% capture early_life_text %}
 She graduated secondary school here, later going on to study law at the University of Freiburg. She met her fiancé, Helmut Himpel, at university.
 
 Studying financial law, she was due to graduate under her dissertation “Die Allgemeinen Geschäftsbedingungen der Banken, insbesondere die Pfandklaus” in 1935.
@@ -29,25 +22,27 @@ This classified Terwiel as half-Jewish, and therefore unable to continue her stu
 Instead of a law career, she became a secretary at a textile company. When she got engaged to Himpel in 1940, they lived together as fiancés in Berlin, and Himpel was considered her family’s son-in-law.
 
 He worked as a dentist, and a connection through a patient of his let them join the Red Orchestra.
+{% endcapture %}
+
+{% include images/figure-wrap.html
+  image-path="images/Maria_Terwiel_1.jpeg"
+  caption="Maria Terwiel. Via Wikipedia."
+  image-position="left"
+  image-width="42%"
+  text=early_life_text
+%}
 
 {% include images/figure-wrap.html
   image-path="images/Maria_Terwiel_Fiance.jpg"
   caption="Maria Terwiel and her fiancé, Helmut Himpel. Via Wikipedia"
   image-position="right"
-  image-width="56%"
-  text=chile_nm_text
+  image-width="42%"
+  text="Maria Terwiel and Helmut Himpel joined the Red Orchestra through a connection at Himpel's dental practice, beginning their work together in the Berlin resistance."
 %}
 
 ## The Red Orchestra - Rote Kappelle
 
-{% include images/figure-wrap.html
-  image-path="images/The_SchulzeBoysen_Group.png"
-  caption="Find Terwiel in the top left of this graph."
-  image-position="left"
-  image-width="80%"
-  text=chile_nm_text
-%}
-
+{% capture red_orchestra_text %}
 The Red Orchestra is the Gestapo name for several groups of socialist-allied resistance groups operating in Berlin. Sometimes called the Schulze-Boysen group, Terwiel and Himpel operated under this framework from 1940 to 1942.
 
 This group was known for distributing leaflets of information on crimes and political information on the Nazi party.
@@ -63,6 +58,15 @@ In the case of the Schulze-Boysen’s, both Harro and Libertas had an active rol
 They passed on information to the Soviet Union, part of the reason for the “red” part of their nickname. It also appears like the group was partially funded by the Soviet Union and other socialist channels.
 
 In 1942, most of the group was discovered by the Gestapo. Estimate vary, but most active members in this group were executed under the crime of treason or espionage.
+{% endcapture %}
+
+{% include images/figure-wrap.html
+  image-path="images/The_SchulzeBoysen_Group.png"
+  caption="Find Terwiel in the top left of this graph."
+  image-position="left"
+  image-width="42%"
+  text=red_orchestra_text
+%}
 
 ## Terwiel's Role
 
